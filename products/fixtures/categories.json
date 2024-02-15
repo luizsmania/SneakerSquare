@@ -35,8 +35,8 @@
        "pk":5,
        "model":"products.category",
        "fields":{
-          "name":"essentials",
-          "friendly_name":"Essentials"
+          "name":"new_arrivals",
+          "friendly_name":"New Arrivals"
        }
     },
     {
