@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.db.models import Q
 from .models import Product, Category
 from django.db.models.functions import Lower
+from django.db.models import Q, Count  # Add import for Count
 
 # Create your views here.
 
@@ -43,6 +44,12 @@ def all_products(request):
             
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
+
+    # Count the number of categories each product belongs to
+    products = products.annotate(num_categories=Count('category'))
+
+    # Filter out duplicate products
+    products = products.distinct()
 
     current_sorting = f'{sort}_{direction}'
 
