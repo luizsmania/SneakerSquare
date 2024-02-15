@@ -1,0 +1,1416 @@
+[
+    {
+       "pk":1,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp1796200443",
+          "name":"Nike Jordan",
+          "description":"Turn heads on the court or the streets with these stylish Nike shoes, designed for those who dare to stand out.",
+          "price":230.0,
+          "category":1,
+          "rating":5,
+          "image_url":"url_to_be_added1",
+          "image":"NIKE_TRAIN_1.jpg"
+       }
+    },
+    {
+       "pk":2,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp2656665228",
+          "name":"Free Walk",
+          "description":"Experience unmatched comfort and support with these Nike shoes, designed for athletes and fashion enthusiasts alike.",
+          "price":46.0,
+          "category":1,
+          "rating":3,
+          "image_url":"url_to_be_added2",
+          "image":"NIKE_TRAIN_2.jpg"
+       }
+    },
+    {
+       "pk":3,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4110054889",
+          "name":"Nike Dual Fusion",
+          "description":"Turn heads on the court or the streets with these stylish Nike shoes, designed for those who dare to stand out.",
+          "price":142.5,
+          "category":1,
+          "rating":2,
+          "image_url":"url_to_be_added3",
+          "image":"NIKE_TRAIN_3.jpg"
+       }
+    },
+    {
+       "pk":4,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp7636854349",
+          "name":"Free Walk",
+          "description":"Experience unrivaled agility and speed with these Nike shoes, designed for athletes who demand the best.",
+          "price":28.5,
+          "category":1,
+          "rating":3,
+          "image_url":"url_to_be_added4",
+          "image":"NIKE_TRAIN_4.jpg"
+       }
+    },
+    {
+       "pk":5,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4677695990",
+          "name":"Nike Dunk Low Premium",
+          "description":"Make a statement wherever you go with these bold Nike shoes, engineered for maximum impact.",
+          "price":150.5,
+          "category":1,
+          "rating":5,
+          "image_url":"url_to_be_added5",
+          "image":"NIKE_TRAIN_5.jpg"
+       }
+    },
+    {
+       "pk":6,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8332143848",
+          "name":"Nike Lunarglide",
+          "description":"Discover your true potential with these Nike shoes, crafted to help you reach new heights.",
+          "price":199.0,
+          "category":1,
+          "rating":2,
+          "image_url":"url_to_be_added6",
+          "image":"NIKE_TRAIN_6.jpg"
+       }
+    },
+    {
+       "pk":7,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4243131254",
+          "name":"Nike Dual Fusion",
+          "description":"Step up your game with these Nike shoes, featuring innovative technology and iconic design.",
+          "price":149.0,
+          "category":1,
+          "rating":2,
+          "image_url":"url_to_be_added7",
+          "image":"NIKE_TRAIN_7.jpg"
+       }
+    },
+    {
+       "pk":8,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp2804077426",
+          "name":"Nike Lunar",
+          "description":"Discover your true potential with these Nike shoes, crafted to help you reach new heights.",
+          "price":10.0,
+          "category":1,
+          "rating":3,
+          "image_url":"url_to_be_added8",
+          "image":"NIKE_TRAIN_8.jpg"
+       }
+    },
+    {
+       "pk":9,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp9032167072",
+          "name":"Nike Dart",
+          "description":"Make a statement wherever you go with these bold Nike shoes, engineered for maximum impact.",
+          "price":114.0,
+          "category":1,
+          "rating":5,
+          "image_url":"url_to_be_added9",
+          "image":"NIKE_TRAIN_9.jpg"
+       }
+    },
+    {
+       "pk":10,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp2075652494",
+          "name":"Nike Dual Fusion",
+          "description":"Stay ahead of the curve with these cutting-edge Nike shoes, engineered for peak performance.",
+          "price":126.0,
+          "category":1,
+          "rating":2,
+          "image_url":"url_to_be_added10",
+          "image":"NIKE_TRAIN_10.jpg"
+       }
+    },
+    {
+       "pk":11,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8032778916",
+          "name":"Air Pegasus",
+          "description":"Step up your game with these Nike shoes, featuring innovative technology and iconic design.",
+          "price":185.5,
+          "category":1,
+          "rating":5,
+          "image_url":"url_to_be_added11",
+          "image":"NIKE_TRAIN_11.jpg"
+       }
+    },
+    {
+       "pk":12,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0325963212",
+          "name":"Free Run",
+          "description":"Discover your true potential with these Nike shoes, crafted to help you reach new heights.",
+          "price":46.5,
+          "category":1,
+          "rating":1,
+          "image_url":"url_to_be_added12",
+          "image":"NIKE_TRAIN_12.jpg"
+       }
+    },
+    {
+       "pk":13,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp2371560559",
+          "name":"Nike Jordan",
+          "description":"Discover your true potential with these Nike shoes, crafted to help you reach new heights.",
+          "price":167.5,
+          "category":1,
+          "rating":1,
+          "image_url":"url_to_be_added13",
+          "image":"NIKE_TRAIN_13.jpg"
+       }
+    },
+    {
+       "pk":14,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8728244383",
+          "name":"Air Pegasus",
+          "description":"Step up your game with these Nike shoes, featuring innovative technology and iconic design.",
+          "price":207.0,
+          "category":1,
+          "rating":1,
+          "image_url":"url_to_be_added14",
+          "image":"NIKE_TRAIN_14.jpg"
+       }
+    },
+    {
+       "pk":15,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8764101477",
+          "name":"Shox",
+          "description":"Experience unmatched comfort and support with these Nike shoes, designed for athletes and fashion enthusiasts alike.",
+          "price":228.5,
+          "category":1,
+          "rating":4,
+          "image_url":"url_to_be_added15",
+          "image":"NIKE_TRAIN_15.jpg"
+       }
+    },
+    {
+       "pk":16,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4828531112",
+          "name":"Nike Air Max",
+          "description":"Turn heads on the court or the streets with these stylish Nike shoes, designed for those who dare to stand out.",
+          "price":236.0,
+          "category":1,
+          "rating":3,
+          "image_url":"url_to_be_added16",
+          "image":"NIKE_TRAIN_16.jpg"
+       }
+    },
+    {
+       "pk":17,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp1749167001",
+          "name":"Shox",
+          "description":"Elevate your street style with these trendy Nike shoes, crafted for urban adventurers.",
+          "price":193.0,
+          "category":1,
+          "rating":2,
+          "image_url":"url_to_be_added17",
+          "image":"NIKE_TRAIN_17.jpg"
+       }
+    },
+    {
+       "pk":18,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp9487894489",
+          "name":"Nike Lunar",
+          "description":"Discover your true potential with these Nike shoes, crafted to help you reach new heights.",
+          "price":161.5,
+          "category":1,
+          "rating":5,
+          "image_url":"url_to_be_added18",
+          "image":"NIKE_TRAIN_18.jpg"
+       }
+    },
+    {
+       "pk":19,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp9400763197",
+          "name":"Nike Dual Fusion",
+          "description":"Elevate your street style with these trendy Nike shoes, crafted for urban adventurers.",
+          "price":251.0,
+          "category":1,
+          "rating":4,
+          "image_url":"url_to_be_added19",
+          "image":"NIKE_TRAIN_19.jpg"
+       }
+    },
+    {
+       "pk":20,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0250507491",
+          "name":"Free Walk",
+          "description":"Get ready to dominate the competition in these Nike shoes, built for winners.",
+          "price":202.0,
+          "category":1,
+          "rating":4,
+          "image_url":"url_to_be_added20",
+          "image":"NIKE_TRAIN_20.jpg"
+       }
+    },
+    {
+       "pk":21,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6405112673",
+          "name":"Air Jordan Retro 10",
+          "description":"Experience unmatched comfort and support with these Nike shoes, designed for athletes and fashion enthusiasts alike.",
+          "price":93.0,
+          "category":1,
+          "rating":5,
+          "image_url":"url_to_be_added21",
+          "image":"NIKE_TRAIN_21.jpg"
+       }
+    },
+    {
+       "pk":22,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0049873630",
+          "name":"Nike Lunarglide",
+          "description":"Discover your true potential with these Nike shoes, crafted to help you reach new heights.",
+          "price":112.0,
+          "category":1,
+          "rating":2,
+          "image_url":"url_to_be_added22",
+          "image":"NIKE_TRAIN_22.jpg"
+       }
+    },
+    {
+       "pk":23,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp7072039814",
+          "name":"Nike Lunarglide",
+          "description":"The perfect blend of style and performance, these Nike shoes are a must-have for your collection.",
+          "price":271.0,
+          "category":1,
+          "rating":1,
+          "image_url":"url_to_be_added23",
+          "image":"NIKE_TRAIN_23.jpg"
+       }
+    },
+    {
+       "pk":24,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp3359931591",
+          "name":"Nike T-Run",
+          "description":"Elevate your street style with these trendy Nike shoes, crafted for urban adventurers.",
+          "price":273.0,
+          "category":1,
+          "rating":2,
+          "image_url":"url_to_be_added24",
+          "image":"NIKE_TRAIN_24.jpg"
+       }
+    },
+    {
+       "pk":25,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0822337869",
+          "name":"Nike Air Max",
+          "description":"Stay ahead of the curve with these cutting-edge Nike shoes, engineered for peak performance.",
+          "price":42.5,
+          "category":1,
+          "rating":1,
+          "image_url":"url_to_be_added25",
+          "image":"NIKE_TRAIN_25.jpg"
+       }
+    },
+    {
+       "pk":26,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp1707257979",
+          "name":"Nike Lebron",
+          "description":"Discover your true potential with these Nike shoes, crafted to help you reach new heights.",
+          "price":138.5,
+          "category":1,
+          "rating":1,
+          "image_url":"url_to_be_added26",
+          "image":"NIKE_TRAIN_26.jpg"
+       }
+    },
+    {
+       "pk":27,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0804084347",
+          "name":"Nike Dual Fusion",
+          "description":"Discover your true potential with these Nike shoes, crafted to help you reach new heights.",
+          "price":84.5,
+          "category":1,
+          "rating":3,
+          "image_url":"url_to_be_added27",
+          "image":"NIKE_TRAIN_27.jpg"
+       }
+    },
+    {
+       "pk":28,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4501219843",
+          "name":"Nike Lebron",
+          "description":"Stay ahead of the curve with these cutting-edge Nike shoes, engineered for peak performance.",
+          "price":71.0,
+          "category":1,
+          "rating":4,
+          "image_url":"url_to_be_added28",
+          "image":"NIKE_TRAIN_28.jpg"
+       }
+    },
+    {
+       "pk":29,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5888071376",
+          "name":"Nike Lunarglide",
+          "description":"Stay ahead of the curve with these cutting-edge Nike shoes, engineered for peak performance.",
+          "price":128.5,
+          "category":1,
+          "rating":1,
+          "image_url":"url_to_be_added29",
+          "image":"NIKE_TRAIN_29.jpg"
+       }
+    },
+    {
+       "pk":30,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6348696535",
+          "name":"Shox",
+          "description":"Stay ahead of the curve with these cutting-edge Nike shoes, engineered for peak performance.",
+          "price":50.0,
+          "category":1,
+          "rating":3,
+          "image_url":"url_to_be_added30",
+          "image":"NIKE_TRAIN_30.jpg"
+       }
+    },
+    {
+       "pk":31,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp2854057724",
+          "name":"Nike Lunarglide",
+          "description":"Experience unmatched comfort and support with these Nike shoes, designed for athletes and fashion enthusiasts alike.",
+          "price":115.0,
+          "category":1,
+          "rating":2,
+          "image_url":"url_to_be_added31",
+          "image":"NIKE_TRAIN_31.jpg"
+       }
+    },
+    {
+       "pk":32,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp3065696423",
+          "name":"Nike Dunk Low Premium",
+          "description":"Experience unmatched comfort and support with these Nike shoes, designed for athletes and fashion enthusiasts alike.",
+          "price":188.0,
+          "category":1,
+          "rating":2,
+          "image_url":"url_to_be_added32",
+          "image":"NIKE_TRAIN_32.jpg"
+       }
+    },
+    {
+       "pk":33,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5210547771",
+          "name":"Nike Lebron",
+          "description":"Get ready to dominate the competition in these Nike shoes, built for winners.",
+          "price":57.5,
+          "category":1,
+          "rating":1,
+          "image_url":"url_to_be_added33",
+          "image":"NIKE_TRAIN_33.jpg"
+       }
+    },
+    {
+       "pk":34,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6038457926",
+          "name":"Nike Jordan",
+          "description":"Get ready to dominate the competition in these Nike shoes, built for winners.",
+          "price":110.0,
+          "category":1,
+          "rating":3,
+          "image_url":"url_to_be_added34",
+          "image":"NIKE_TRAIN_34.jpg"
+       }
+    },
+    {
+       "pk":35,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp3092853600",
+          "name":"Free Run",
+          "description":"Get ready to dominate the competition in these Nike shoes, built for winners.",
+          "price":49.0,
+          "category":1,
+          "rating":2,
+          "image_url":"url_to_be_added35",
+          "image":"NIKE_TRAIN_35.jpg"
+       }
+    },
+    {
+       "pk":36,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp7367367990",
+          "name":"Nike Jordan",
+          "description":"Make a statement wherever you go with these bold Nike shoes, engineered for maximum impact.",
+          "price":197.5,
+          "category":1,
+          "rating":1,
+          "image_url":"url_to_be_added36",
+          "image":"NIKE_TRAIN_36.jpg"
+       }
+    },
+    {
+       "pk":37,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp1288875879",
+          "name":"Adidas Energyfalcon",
+          "description":"Make a statement on the streets with these bold Adidas shoes, crafted for urban adventurers.",
+          "price":156.0,
+          "category":3,
+          "rating":1,
+          "image_url":"url_to_be_added37",
+          "image":"ADIDAS_TRAIN_1.jpg"
+       }
+    },
+    {
+       "pk":38,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6823163223",
+          "name":"Adidas Alphabounce+",
+          "description":"Experience unmatched agility and speed with these Adidas shoes, designed for athletes who push the limits.",
+          "price":44.0,
+          "category":3,
+          "rating":5,
+          "image_url":"url_to_be_added38",
+          "image":"ADIDAS_TRAIN_2.jpg"
+       }
+    },
+    {
+       "pk":39,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4120810074",
+          "name":"Adidas Stan Smith",
+          "description":"Dominate the competition in these high-performance Adidas shoes, built for winners.",
+          "price":216.5,
+          "category":3,
+          "rating":1,
+          "image_url":"url_to_be_added39",
+          "image":"ADIDAS_TRAIN_3.jpg"
+       }
+    },
+    {
+       "pk":40,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4872681210",
+          "name":"Adidas Questar Flow",
+          "description":"Make a statement on the streets with these bold Adidas shoes, crafted for urban adventurers.",
+          "price":239.5,
+          "category":3,
+          "rating":4,
+          "image_url":"url_to_be_added40",
+          "image":"ADIDAS_TRAIN_4.jpg"
+       }
+    },
+    {
+       "pk":41,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5677297138",
+          "name":"Adidas Energyfalcon",
+          "description":"Stay ahead of the curve with these cutting-edge Adidas shoes, engineered for peak performance.",
+          "price":101.5,
+          "category":3,
+          "rating":2,
+          "image_url":"url_to_be_added41",
+          "image":"ADIDAS_TRAIN_5.jpg"
+       }
+    },
+    {
+       "pk":42,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4150463951",
+          "name":"Adidas Samba OG",
+          "description":"Stay ahead of the curve with these cutting-edge Adidas shoes, engineered for peak performance.",
+          "price":138.5,
+          "category":3,
+          "rating":2,
+          "image_url":"url_to_be_added42",
+          "image":"ADIDAS_TRAIN_6.jpg"
+       }
+    },
+    {
+       "pk":43,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6726414123",
+          "name":"Adidas Kaptir",
+          "description":"Discover your true potential with these innovative Adidas shoes, engineered to help you reach new heights.",
+          "price":86.5,
+          "category":3,
+          "rating":3,
+          "image_url":"url_to_be_added43",
+          "image":"ADIDAS_TRAIN_7.jpg"
+       }
+    },
+    {
+       "pk":44,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4912679535",
+          "name":"Adidas Kaptir",
+          "description":"Make a statement on the streets with these bold Adidas shoes, crafted for urban adventurers.",
+          "price":129.0,
+          "category":3,
+          "rating":4,
+          "image_url":"url_to_be_added44",
+          "image":"ADIDAS_TRAIN_8.jpg"
+       }
+    },
+    {
+       "pk":45,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp7301788467",
+          "name":"Adidas Questar Flow",
+          "description":"Stay ahead of the curve with these cutting-edge Adidas shoes, engineered for peak performance.",
+          "price":77.5,
+          "category":3,
+          "rating":4,
+          "image_url":"url_to_be_added45",
+          "image":"ADIDAS_TRAIN_9.jpg"
+       }
+    },
+    {
+       "pk":46,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp3160507316",
+          "name":"Adidas Continental 80",
+          "description":"Step up your game with these sleek Adidas shoes, designed for athletes who demand the best.",
+          "price":85.5,
+          "category":3,
+          "rating":3,
+          "image_url":"url_to_be_added46",
+          "image":"ADIDAS_TRAIN_10.jpg"
+       }
+    },
+    {
+       "pk":47,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp2495783430",
+          "name":"Adidas Kaptir",
+          "description":"Make a statement on the streets with these bold Adidas shoes, crafted for urban adventurers.",
+          "price":188.0,
+          "category":3,
+          "rating":4,
+          "image_url":"url_to_be_added47",
+          "image":"ADIDAS_TRAIN_11.jpg"
+       }
+    },
+    {
+       "pk":48,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp2077519255",
+          "name":"Adidas Continental 80",
+          "description":"Step up your game with these sleek Adidas shoes, designed for athletes who demand the best.",
+          "price":159.0,
+          "category":3,
+          "rating":3,
+          "image_url":"url_to_be_added48",
+          "image":"ADIDAS_TRAIN_12.jpg"
+       }
+    },
+    {
+       "pk":49,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp9847570215",
+          "name":"Adidas Stan Smith",
+          "description":"Step up your game with these sleek Adidas shoes, designed for athletes who demand the best.",
+          "price":190.5,
+          "category":3,
+          "rating":1,
+          "image_url":"url_to_be_added49",
+          "image":"ADIDAS_TRAIN_13.jpg"
+       }
+    },
+    {
+       "pk":50,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6063286759",
+          "name":"Adidas Continental 80",
+          "description":"Elevate your street style game with these trendy Adidas shoes, crafted for fashion-forward individuals.",
+          "price":94.5,
+          "category":3,
+          "rating":2,
+          "image_url":"url_to_be_added50",
+          "image":"ADIDAS_TRAIN_14.jpg"
+       }
+    },
+    {
+       "pk":51,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp3622521683",
+          "name":"Adidas Kaptir",
+          "description":"Get ready to conquer the court with these Adidas basketball shoes, engineered for champions.",
+          "price":245.0,
+          "category":3,
+          "rating":5,
+          "image_url":"url_to_be_added51",
+          "image":"ADIDAS_TRAIN_15.jpg"
+       }
+    },
+    {
+       "pk":52,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0966857681",
+          "name":"Adidas Stan Smith",
+          "description":"Elevate your performance with these Adidas shoes, engineered for maximum comfort and style.",
+          "price":53.5,
+          "category":3,
+          "rating":2,
+          "image_url":"url_to_be_added52",
+          "image":"ADIDAS_TRAIN_16.jpg"
+       }
+    },
+    {
+       "pk":53,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp3014043640",
+          "name":"Adidas Energyfalcon",
+          "description":"Elevate your performance with these Adidas shoes, engineered for maximum comfort and style.",
+          "price":128.5,
+          "category":3,
+          "rating":1,
+          "image_url":"url_to_be_added53",
+          "image":"ADIDAS_TRAIN_17.jpg"
+       }
+    },
+    {
+       "pk":54,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5586702272",
+          "name":"Adidas Questar Flow",
+          "description":"Experience unrivaled support and stability with these Adidas shoes, perfect for your active lifestyle.",
+          "price":176.5,
+          "category":3,
+          "rating":1,
+          "image_url":"url_to_be_added54",
+          "image":"ADIDAS_TRAIN_18.jpg"
+       }
+    },
+    {
+       "pk":55,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp2310720742",
+          "name":"Adidas Continental 80",
+          "description":"Turn heads wherever you go with these stylish Adidas shoes, designed for those who dare to stand out.",
+          "price":133.0,
+          "category":3,
+          "rating":4,
+          "image_url":"url_to_be_added55",
+          "image":"ADIDAS_TRAIN_19.jpg"
+       }
+    },
+    {
+       "pk":56,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp1789175553",
+          "name":"Adidas Samba OG",
+          "description":"Elevate your street style game with these trendy Adidas shoes, crafted for fashion-forward individuals.",
+          "price":248.0,
+          "category":3,
+          "rating":2,
+          "image_url":"url_to_be_added56",
+          "image":"ADIDAS_TRAIN_20.jpg"
+       }
+    },
+    {
+       "pk":57,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp9028084766",
+          "name":"Adidas Continental 80",
+          "description":"Dominate the competition in these high-performance Adidas shoes, built for winners.",
+          "price":215.5,
+          "category":3,
+          "rating":1,
+          "image_url":"url_to_be_added57",
+          "image":"ADIDAS_TRAIN_21.jpg"
+       }
+    },
+    {
+       "pk":58,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0892355825",
+          "name":"Adidas Continental 80",
+          "description":"Experience unrivaled support and stability with these Adidas shoes, perfect for your active lifestyle.",
+          "price":22.0,
+          "category":3,
+          "rating":3,
+          "image_url":"url_to_be_added58",
+          "image":"ADIDAS_TRAIN_22.jpg"
+       }
+    },
+    {
+       "pk":59,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp7441715099",
+          "name":"Adidas Continental 80",
+          "description":"Dominate the competition in these high-performance Adidas shoes, built for winners.",
+          "price":94.0,
+          "category":3,
+          "rating":2,
+          "image_url":"url_to_be_added59",
+          "image":"ADIDAS_TRAIN_23.jpg"
+       }
+    },
+    {
+       "pk":60,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8967605698",
+          "name":"Adidas Samba OG",
+          "description":"Experience unmatched agility and speed with these Adidas shoes, designed for athletes who push the limits.",
+          "price":246.5,
+          "category":3,
+          "rating":4,
+          "image_url":"url_to_be_added60",
+          "image":"ADIDAS_TRAIN_24.jpg"
+       }
+    },
+    {
+       "pk":61,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp1385824771",
+          "name":"Adidas Samba OG",
+          "description":"Turn heads wherever you go with these stylish Adidas shoes, designed for those who dare to stand out.",
+          "price":109.0,
+          "category":3,
+          "rating":2,
+          "image_url":"url_to_be_added61",
+          "image":"ADIDAS_TRAIN_25.jpg"
+       }
+    },
+    {
+       "pk":62,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5917157931",
+          "name":"Adidas Energyfalcon",
+          "description":"Elevate your performance with these Adidas shoes, engineered for maximum comfort and style.",
+          "price":71.0,
+          "category":3,
+          "rating":2,
+          "image_url":"url_to_be_added62",
+          "image":"ADIDAS_TRAIN_26.jpg"
+       }
+    },
+    {
+       "pk":63,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp3982566424",
+          "name":"Adidas RapidaRun",
+          "description":"Make a statement on the streets with these bold Adidas shoes, crafted for urban adventurers.",
+          "price":52.5,
+          "category":3,
+          "rating":4,
+          "image_url":"url_to_be_added63",
+          "image":"ADIDAS_TRAIN_27.jpg"
+       }
+    },
+    {
+       "pk":64,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp3561739700",
+          "name":"Adidas Kaptir",
+          "description":"Dominate the competition in these high-performance Adidas shoes, built for winners.",
+          "price":30.5,
+          "category":3,
+          "rating":2,
+          "image_url":"url_to_be_added64",
+          "image":"ADIDAS_TRAIN_28.jpg"
+       }
+    },
+    {
+       "pk":65,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6148339380",
+          "name":"Adidas Harden Vol.4",
+          "description":"Elevate your street style game with these trendy Adidas shoes, crafted for fashion-forward individuals.",
+          "price":164.5,
+          "category":3,
+          "rating":4,
+          "image_url":"url_to_be_added65",
+          "image":"ADIDAS_TRAIN_29.jpg"
+       }
+    },
+    {
+       "pk":66,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp7406058561",
+          "name":"Puma Suede",
+          "description":"Discover your true potential with these versatile Puma shoes, designed to keep you comfortable and stylish all day long.",
+          "price":176.5,
+          "category":2,
+          "rating":4,
+          "image_url":"url_to_be_added66",
+          "image":"PUMA_TRAIN_1.jpg"
+       }
+    },
+    {
+       "pk":67,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6409114421",
+          "name":"Puma FUSE",
+          "description":"Get ready to conquer the urban jungle with these durable Puma shoes, built to withstand whatever the city throws your way.",
+          "price":26.5,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added67",
+          "image":"PUMA_TRAIN_2.jpg"
+       }
+    },
+    {
+       "pk":68,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0821262740",
+          "name":"Puma Suede Terrace",
+          "description":"Take your training to the next level with these dynamic Puma shoes, engineered to help you reach your fitness goals with ease.",
+          "price":110.5,
+          "category":2,
+          "rating":3,
+          "image_url":"url_to_be_added68",
+          "image":"PUMA_TRAIN_3.jpg"
+       }
+    },
+    {
+       "pk":69,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8496835416",
+          "name":"Puma Cali Dream",
+          "description":"Dominate the competition in these high-performance Puma shoes, engineered for champions in every sport.",
+          "price":104.0,
+          "category":2,
+          "rating":3,
+          "image_url":"url_to_be_added69",
+          "image":"PUMA_TRAIN_4.jpg"
+       }
+    },
+    {
+       "pk":70,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8671807107",
+          "name":"Puma FUSE",
+          "description":"Elevate your style game with these sleek Puma shoes, designed for those who demand the best in comfort and fashion.",
+          "price":242.0,
+          "category":2,
+          "rating":4,
+          "image_url":"url_to_be_added70",
+          "image":"PUMA_TRAIN_5.jpg"
+       }
+    },
+    {
+       "pk":71,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp7549704731",
+          "name":"Puma Palermo Leather",
+          "description":"Step up your performance with these innovative Puma shoes, crafted for athletes who strive for greatness.",
+          "price":22.5,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added71",
+          "image":"PUMA_TRAIN_6.jpg"
+       }
+    },
+    {
+       "pk":72,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5572765322",
+          "name":"Puma Palermo Leather",
+          "description":"Elevate your style game with these sleek Puma shoes, designed for those who demand the best in comfort and fashion.",
+          "price":147.5,
+          "category":2,
+          "rating":3,
+          "image_url":"url_to_be_added72",
+          "image":"PUMA_TRAIN_7.jpg"
+       }
+    },
+    {
+       "pk":73,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8162917556",
+          "name":"Puma Mayze Brushed Suede",
+          "description":"Experience unmatched agility and speed with these lightweight Puma shoes, perfect for your daily runs or gym sessions.",
+          "price":259.5,
+          "category":2,
+          "rating":4,
+          "image_url":"url_to_be_added73",
+          "image":"PUMA_TRAIN_8.jpg"
+       }
+    },
+    {
+       "pk":74,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp1294046518",
+          "name":"Puma Terrace Classic",
+          "description":"Experience unmatched agility and speed with these lightweight Puma shoes, perfect for your daily runs or gym sessions.",
+          "price":167.0,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added74",
+          "image":"PUMA_TRAIN_9.jpg"
+       }
+    },
+    {
+       "pk":75,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp2925387901",
+          "name":"Puma Morphic",
+          "description":"Make every step count with these reliable Puma shoes, engineered to provide stability and cushioning for all-day wear.",
+          "price":109.5,
+          "category":2,
+          "rating":5,
+          "image_url":"url_to_be_added75",
+          "image":"PUMA_TRAIN_10.jpg"
+       }
+    },
+    {
+       "pk":76,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp7957964193",
+          "name":"Puma Suede Terrace",
+          "description":"Elevate your street style game with these fashion-forward Puma shoes, perfect for trendsetters and tastemakers alike.",
+          "price":193.5,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added76",
+          "image":"PUMA_TRAIN_11.jpg"
+       }
+    },
+    {
+       "pk":77,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8206415528",
+          "name":"Puma 180",
+          "description":"Dominate the competition in these high-performance Puma shoes, engineered for champions in every sport.",
+          "price":269.5,
+          "category":2,
+          "rating":3,
+          "image_url":"url_to_be_added77",
+          "image":"PUMA_TRAIN_12.jpg"
+       }
+    },
+    {
+       "pk":78,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp1108561948",
+          "name":"Puma Morphic",
+          "description":"Make a statement on the streets with these bold Puma shoes, featuring a unique design that sets you apart from the crowd.",
+          "price":49.0,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added78",
+          "image":"PUMA_TRAIN_13.jpg"
+       }
+    },
+    {
+       "pk":79,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4136766806",
+          "name":"Puma Mayze Ut",
+          "description":"Experience unrivaled comfort and support with these premium Puma shoes, designed for athletes and fashion enthusiasts alike.",
+          "price":232.5,
+          "category":2,
+          "rating":3,
+          "image_url":"url_to_be_added79",
+          "image":"PUMA_TRAIN_14.jpg"
+       }
+    },
+    {
+       "pk":80,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8342552474",
+          "name":"Puma Palermo Leather",
+          "description":"Embrace the legacy of Puma with these iconic shoes, blending classic style with modern technology for a timeless look.",
+          "price":30.5,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added80",
+          "image":"PUMA_TRAIN_15.jpg"
+       }
+    },
+    {
+       "pk":81,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0046345824",
+          "name":"Puma Suede",
+          "description":"Dominate the competition in these high-performance Puma shoes, engineered for champions in every sport.",
+          "price":253.0,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added81",
+          "image":"PUMA_TRAIN_16.jpg"
+       }
+    },
+    {
+       "pk":82,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp1007158887",
+          "name":"Puma Porsche Legacy Speedcat",
+          "description":"Whether you're hitting the gym or the streets, these Puma shoes will keep you looking and feeling your best.",
+          "price":206.5,
+          "category":2,
+          "rating":3,
+          "image_url":"url_to_be_added82",
+          "image":"PUMA_TRAIN_17.jpg"
+       }
+    },
+    {
+       "pk":83,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6261946307",
+          "name":"Puma Morphic",
+          "description":"Embrace the legacy of Puma with these iconic shoes, blending classic style with modern technology for a timeless look.",
+          "price":167.0,
+          "category":2,
+          "rating":5,
+          "image_url":"url_to_be_added83",
+          "image":"PUMA_TRAIN_18.jpg"
+       }
+    },
+    {
+       "pk":84,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6829980538",
+          "name":"Puma Suede",
+          "description":"Make every step count with these reliable Puma shoes, engineered to provide stability and cushioning for all-day wear.",
+          "price":207.0,
+          "category":2,
+          "rating":1,
+          "image_url":"url_to_be_added84",
+          "image":"PUMA_TRAIN_19.jpg"
+       }
+    },
+    {
+       "pk":85,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0930710522",
+          "name":"Puma Palermo Leather",
+          "description":"Whether you're hitting the gym or the streets, these Puma shoes will keep you looking and feeling your best.",
+          "price":121.5,
+          "category":2,
+          "rating":5,
+          "image_url":"url_to_be_added85",
+          "image":"PUMA_TRAIN_20.jpg"
+       }
+    },
+    {
+       "pk":86,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8301749534",
+          "name":"Puma Slipstream",
+          "description":"Get ready to conquer the urban jungle with these durable Puma shoes, built to withstand whatever the city throws your way.",
+          "price":103.0,
+          "category":2,
+          "rating":1,
+          "image_url":"url_to_be_added86",
+          "image":"PUMA_TRAIN_21.jpg"
+       }
+    },
+    {
+       "pk":87,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6092724705",
+          "name":"Puma Mayze Ut",
+          "description":"Experience unmatched agility and speed with these lightweight Puma shoes, perfect for your daily runs or gym sessions.",
+          "price":65.5,
+          "category":2,
+          "rating":4,
+          "image_url":"url_to_be_added87",
+          "image":"PUMA_TRAIN_22.jpg"
+       }
+    },
+    {
+       "pk":88,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4602897431",
+          "name":"Puma Mayze Ut",
+          "description":"Elevate your street style game with these fashion-forward Puma shoes, perfect for trendsetters and tastemakers alike.",
+          "price":135.5,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added88",
+          "image":"PUMA_TRAIN_23.jpg"
+       }
+    },
+    {
+       "pk":89,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4803222277",
+          "name":"Puma FUSE",
+          "description":"Embrace the legacy of Puma with these iconic shoes, blending classic style with modern technology for a timeless look.",
+          "price":15.5,
+          "category":2,
+          "rating":1,
+          "image_url":"url_to_be_added89",
+          "image":"PUMA_TRAIN_24.jpg"
+       }
+    },
+    {
+       "pk":90,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6195929916",
+          "name":"Puma Mayze Brushed Suede",
+          "description":"Elevate your style game with these sleek Puma shoes, designed for those who demand the best in comfort and fashion.",
+          "price":150.0,
+          "category":2,
+          "rating":1,
+          "image_url":"url_to_be_added90",
+          "image":"PUMA_TRAIN_25.jpg"
+       }
+    },
+    {
+       "pk":91,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp1117166945",
+          "name":"Puma Suede",
+          "description":"Dominate the competition in these high-performance Puma shoes, engineered for champions in every sport.",
+          "price":79.5,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added91",
+          "image":"PUMA_TRAIN_26.jpg"
+       }
+    },
+    {
+       "pk":92,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp6032628943",
+          "name":"Puma Porsche Legacy Speedcat",
+          "description":"Embrace the legacy of Puma with these iconic shoes, blending classic style with modern technology for a timeless look.",
+          "price":166.0,
+          "category":2,
+          "rating":5,
+          "image_url":"url_to_be_added92",
+          "image":"PUMA_TRAIN_27.jpg"
+       }
+    },
+    {
+       "pk":93,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp9417061007",
+          "name":"Puma Sportswear",
+          "description":"Experience unmatched agility and speed with these lightweight Puma shoes, perfect for your daily runs or gym sessions.",
+          "price":63.0,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added93",
+          "image":"PUMA_TRAIN_28.jpg"
+       }
+    },
+    {
+       "pk":94,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4906861676",
+          "name":"Puma Sportswear",
+          "description":"Get ready to conquer the urban jungle with these durable Puma shoes, built to withstand whatever the city throws your way.",
+          "price":265.0,
+          "category":2,
+          "rating":3,
+          "image_url":"url_to_be_added94",
+          "image":"PUMA_TRAIN_29.jpg"
+       }
+    },
+    {
+       "pk":95,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8539453564",
+          "name":"Puma Mayze Brushed Suede",
+          "description":"Make a statement on the streets with these bold Puma shoes, featuring a unique design that sets you apart from the crowd.",
+          "price":260.5,
+          "category":2,
+          "rating":4,
+          "image_url":"url_to_be_added95",
+          "image":"PUMA_TRAIN_30.jpg"
+       }
+    },
+    {
+       "pk":96,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp4967618012",
+          "name":"Puma Speedcat LS",
+          "description":"Make a statement on the streets with these bold Puma shoes, featuring a unique design that sets you apart from the crowd.",
+          "price":41.5,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added96",
+          "image":"PUMA_TRAIN_31.jpg"
+       }
+    },
+    {
+       "pk":97,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp8202169669",
+          "name":"Puma FUSE",
+          "description":"Make a statement on the streets with these bold Puma shoes, featuring a unique design that sets you apart from the crowd.",
+          "price":198.0,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added97",
+          "image":"PUMA_TRAIN_32.jpg"
+       }
+    },
+    {
+       "pk":98,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0842691243",
+          "name":"Puma Suede Terrace",
+          "description":"Elevate your style game with these sleek Puma shoes, designed for those who demand the best in comfort and fashion.",
+          "price":111.0,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added98",
+          "image":"PUMA_TRAIN_33.jpg"
+       }
+    },
+    {
+       "pk":99,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp0444942239",
+          "name":"Puma Suede Terrace",
+          "description":"Take your training to the next level with these dynamic Puma shoes, engineered to help you reach your fitness goals with ease.",
+          "price":177.0,
+          "category":2,
+          "rating":4,
+          "image_url":"url_to_be_added99",
+          "image":"PUMA_TRAIN_34.jpg"
+       }
+    },
+    {
+       "pk":100,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp7546233683",
+          "name":"Puma Suede Terrace",
+          "description":"Whether you're hitting the gym or the streets, these Puma shoes will keep you looking and feeling your best.",
+          "price":100.5,
+          "category":2,
+          "rating":2,
+          "image_url":"url_to_be_added100",
+          "image":"PUMA_TRAIN_35.jpg"
+       }
+    },
+    {
+       "pk":101,
+       "model":"products.product",
+       "fields":{
+          "sku":"pp5822057874",
+          "name":"Puma Mayze Ut",
+          "description":"Experience unrivaled comfort and support with these premium Puma shoes, designed for athletes and fashion enthusiasts alike.",
+          "price":248.0,
+          "category":2,
+          "rating":3,
+          "image_url":"url_to_be_added101",
+          "image":"PUMA_TRAIN_36.jpg"
+       }
+    }
+ ]
