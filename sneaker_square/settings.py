@@ -1,4 +1,5 @@
 import os
+from decimal import Decimal
 
 """
 Django settings for sneaker_square project.
@@ -159,7 +160,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 FREE_DELIVERY_THRESHOLD = 50
-STANDARD_DELIVERY_PERCENTAGE = 10
+STANDARD_DELIVERY_PERCENTAGE = Decimal('10')  # Example: 10% delivery cost
 
 
 
