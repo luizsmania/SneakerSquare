@@ -14,10 +14,15 @@ def bag_contents(request):
         product = get_object_or_404(Product, pk=item_id)
         total += quantity * product.price
         product_count += quantity
+
+        # Calculate total price for the item
+        total_price = quantity * product.price
+
         bag_items.append({
             'item_id': item_id,
             'quantity': quantity,
             'product': product,
+            'total_price': total_price,  # Add total price to the item dictionary
         })
 
     if total < settings.FREE_DELIVERY_THRESHOLD:
