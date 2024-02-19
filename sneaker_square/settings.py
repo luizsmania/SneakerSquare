@@ -181,3 +181,10 @@ STANDARD_DELIVERY_PERCENTAGE = Decimal('10')  # Example: 10% delivery cost
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Stripe
+STRIPE_CURRENCY = 'usd'
+STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY')
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY')
+STRIPE_PUBLIC_KEY= 'pk_test_51OlcxKEm46oXQWMaCrBxN4XKH5O5IlSnThHNJ55chTCke8lC4ylU8l2MlU3JkaaEtXIlyN9JPxKNk7c5uSVWyrBo00XxoEUoqR'
+STRIPE_SECRET_KEY= 'sk_test_51OlcxKEm46oXQWMahqf25GOR1vcl04R9epZ0DodGmpPRY11N6TBEcD7wYRINbHjX9zM9sjEDUQoZYUt63tp2bpBW00E2nBvvBH'
