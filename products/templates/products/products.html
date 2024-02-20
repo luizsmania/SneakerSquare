@@ -76,7 +76,7 @@
                                                     <a class="text-muted" href="{% url 'products' %}?category={{ category.name }}">
                                                         {% if not forloop.first %}<i class="fas fa-tag mr-1 ml-1"></i>{% else %}<i class="fas fa-tag mr-1"></i>{% endif %}
                                                         {{ category.friendly_name }}
-                                                    </a>{% if not forloop.last %},  {% endif %}
+                                                    </a>
                                                 {% endfor %}
                                             </div>
                                         {% endif %}

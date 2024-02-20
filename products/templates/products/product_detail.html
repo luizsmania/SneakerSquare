@@ -30,12 +30,15 @@
                 <div class="product-details-container mb-5 mt-md-5">
                     <p class="mb-0">{{ product.name }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                    {% if product.category %}
-                    <p class="small mt-1 mb-0">
-                        <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
-                            <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
-                        </a>
-                    </p>
+                    {% if product.category.exists %}  <!-- Check if the product has any categories associated with it -->
+                        <div class="small mt-1 mb-0">
+                            {% for category in product.category.all %}  <!-- Loop through each category associated with the product -->
+                                <a class="text-muted" href="{% url 'products' %}?category={{ category.name }}">
+                                    <i class="fas fa-tag mr-1"></i>{{ category.friendly_name }}
+                                </a>
+                                <br> <!-- Add a line break to display each category on a new line -->
+                            {% endfor %}
+                        </div>
                     {% endif %}
                     {% if product.rating %}
                         <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
