@@ -30,15 +30,12 @@
                 <div class="product-details-container mb-5 mt-md-5">
                     <p class="mb-0">{{ product.name }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                    {% if product.category.exists %}  <!-- Check if the product has any categories associated with it -->
-                        <div class="small mt-1 mb-0">
-                            {% for category in product.category.all %}  <!-- Loop through each category associated with the product -->
-                                <a class="text-muted" href="{% url 'products' %}?category={{ category.name }}">
-                                    <i class="fas fa-tag mr-1"></i>{{ category.friendly_name }}
-                                </a>
-                                <br> <!-- Add a line break to display each category on a new line -->
-                            {% endfor %}
-                        </div>
+                    {% if product.category %}
+                    <p class="small mt-1 mb-0">
+                        <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                            <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                        </a>
+                    </p>
                     {% endif %}
                     {% if product.rating %}
                         <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
@@ -54,22 +51,11 @@
                                 <div class="col-12">
                                     <p><strong>Size:</strong></p>
                                     <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
-                                        <option value="6.5">6.5 (UK)</option>
-                                        <option value="7">7 (UK)</option>
-                                        <option value="7.5">7.5 (UK)</option>
-                                        <option value="8" selected>8 (UK)</option>
-                                        <option value="8.5">8.5 (UK)</option>
-                                        <option value="9">9 (UK)</option>
-                                        <option value="9.5">9.5 (UK)</option>
-                                        <option value="10">10 (UK)</option>
-                                        <option value="10.5">10.5 (UK)</option>
-                                        <option value="11">11 (UK)</option>
-                                        <option value="11.5">11.5 (UK)</option>
-                                        <option value="12">12 (UK)</option>
-                                        <option value="12.5">12.5 (UK)</option>
-                                        <option value="13">13 (UK)</option>
-                                        <option value="14">14 (UK)</option>
-                                        <option value="15">15 (UK)</option>
+                                        <option value="xs">XS</option>
+                                        <option value="s">S</option>
+                                        <option value="m" selected>M</option>
+                                        <option value="l">L</option>
+                                        <option value="xl">XL</option>
                                     </select>
                                 </div>
                             {% endif %}
