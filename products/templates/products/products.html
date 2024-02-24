@@ -70,13 +70,15 @@
                                     <div class="row">
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
-                                            {% if product.category %}
-                                            <p class="small mt-1 mb-0">
-                                                <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
-                                                    <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
-                                                </a>
-                                            </p>
-                                            {% endif %}
+                                            <div class="row">
+                                                {% for category in product.category.all %}
+                                                <div class="col-auto">
+                                                    <a class="category-link text-muted small" href="{% url 'products' %}?category={{ category.name }}">
+                                                        <i class="fas fa-tag mr-1"></i>{{ category.friendly_name }}
+                                                    </a>
+                                                </div>
+                                                {% endfor %}
+                                            </div>
                                             {% if product.rating %}
                                                 <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
                                             {% else %}
