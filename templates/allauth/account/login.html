@@ -11,9 +11,9 @@
 <h2 class="logo-font mb-4">{% trans "Sign In" %}</h2>
 <hr>
 
-{% get_providers as socialaccount_providers %}
+{% get_providers as socialaccount.providers %}
 
-{% if socialaccount_providers %}
+{% if socialaccount.providers %}
 <p>{% blocktrans with site.name as site_name %}Please sign in with one
 of your existing third party accounts. Or, <a href="{{ signup_url }}">sign up</a>
 for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
