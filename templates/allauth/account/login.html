@@ -2,6 +2,7 @@
 
 {% load i18n %}
 {% load account socialaccount %}
+{% csrf_token %}
 
 {% block head_title %}{% trans "Sign In" %}{% endblock %}
 
@@ -11,9 +12,9 @@
 <h2 class="logo-font mb-4">{% trans "Sign In" %}</h2>
 <hr>
 
-{% get_providers as socialaccount.providers %}
+{% get_providers as socialaccount_providers %}
 
-{% if socialaccount.providers %}
+{% if socialaccount_providers %}
 <p>{% blocktrans with site.name as site_name %}Please sign in with one
 of your existing third party accounts. Or, <a href="{{ signup_url }}">sign up</a>
 for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>

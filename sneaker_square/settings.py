@@ -33,7 +33,7 @@ if 'DEVELOPMENT' in os.environ:
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['8000-luizsmania-sneakersquar-tq99yz3jze0.ws-eu108.gitpod.io', 'sneakersquare-5c5523e490fd.herokuapp.com']
+ALLOWED_HOSTS = ['8000-luizsmania-sneakersquar-tq99yz3jze0.ws-eu108.gitpod.io', 'sneakersquare-5c5523e490fd.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -75,6 +75,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'sneaker_square.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+CSRF_TRUSTED_ORIGINS = ['http://*', 'https://*', "https://8000-luizsmania-sneakersquar-tq99yz3jze0.ws-eu108.gitpod.io"]
 
 TEMPLATES = [
     {
