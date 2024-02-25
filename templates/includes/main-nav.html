@@ -26,12 +26,13 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Homeware
+                Clothes
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">lorum ipsulum</a>
-                <a href="" class="dropdown-item">lorum ipsulum</a>
-                <a href="" class="dropdown-item">lorum ipsulum</a>
+                <a href="{% url 'products' %}?category=tshirts" class="dropdown-item">T-Shirts</a>
+                <a href="{% url 'products' %}?category=hoodies" class="dropdown-item">Hoodies</a>
+                <a href="{% url 'products' %}?category=trousers" class="dropdown-item">Trousers</a>
+                <a href="{% url 'products' %}?category=tshirts,hoodies,trousers" class="dropdown-item">All Clothes</a>
             </div>
         </li>
 

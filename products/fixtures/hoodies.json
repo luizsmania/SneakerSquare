@@ -1,0 +1,1442 @@
+[
+    {
+        "pk": 101,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp98613405",
+            "name": "JUMPER",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 149.0,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added1",
+            "image": "HOODIE_1.jpg"
+        }
+    },
+    {
+        "pk": 102,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp78632951",
+            "name": "SWEATSHIRT",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 132.0,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added2",
+            "image": "HOODIE_2.jpg"
+        }
+    },
+    {
+        "pk": 103,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp97340628",
+            "name": "HOODY",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 109.5,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added3",
+            "image": "HOODIE_3.jpg"
+        }
+    },
+    {
+        "pk": 104,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp15392764",
+            "name": "FLEECE",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 36.0,
+            "category": [
+                8
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added4",
+            "image": "HOODIE_4.jpg"
+        }
+    },
+    {
+        "pk": 105,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp27963154",
+            "name": "SLOUCHY",
+            "description": "Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price": 54.5,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added5",
+            "image": "HOODIE_5.jpg"
+        }
+    },
+    {
+        "pk": 106,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp90621475",
+            "name": "HOODIE",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 60.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added6",
+            "image": "HOODIE_6.jpg"
+        }
+    },
+    {
+        "pk": 107,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp12834957",
+            "name": "FLEECE",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 38.5,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added7",
+            "image": "HOODIE_7.jpg"
+        }
+    },
+    {
+        "pk": 108,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp65413780",
+            "name": "HOODIE",
+            "description": "Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price": 139.0,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added8",
+            "image": "HOODIE_8.jpg"
+        }
+    },
+    {
+        "pk": 109,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp91286045",
+            "name": "HOODIE",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 100.0,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 1,
+            "image_url": "url_to_be_added9",
+            "image": "HOODIE_9.jpg"
+        }
+    },
+    {
+        "pk": 110,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp91547230",
+            "name": "SWEATER VEST",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 43.0,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added10",
+            "image": "HOODIE_10.jpg"
+        }
+    },
+    {
+        "pk": 111,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp75862149",
+            "name": "SWEATSHIRT",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 103.5,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added11",
+            "image": "HOODIE_11.jpg"
+        }
+    },
+    {
+        "pk": 112,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp72650489",
+            "name": "ZIP-UP",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 161.0,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added12",
+            "image": "HOODIE_12.jpg"
+        }
+    },
+    {
+        "pk": 113,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp28745109",
+            "name": "SWEATER",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 107.0,
+            "category": [
+                8
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added13",
+            "image": "HOODIE_13.jpg"
+        }
+    },
+    {
+        "pk": 114,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp68305927",
+            "name": "TUNIC",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 92.0,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added14",
+            "image": "HOODIE_14.jpg"
+        }
+    },
+    {
+        "pk": 115,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp30624895",
+            "name": "SWEATER",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 180.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added15",
+            "image": "HOODIE_15.jpg"
+        }
+    },
+    {
+        "pk": 116,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp97805421",
+            "name": "CARDIGAN",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 121.5,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added16",
+            "image": "HOODIE_16.jpg"
+        }
+    },
+    {
+        "pk": 117,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp40739256",
+            "name": "FLEECE",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 197.5,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added17",
+            "image": "HOODIE_17.jpg"
+        }
+    },
+    {
+        "pk": 118,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp91423865",
+            "name": "CARDIGAN",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 58.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added18",
+            "image": "HOODIE_18.jpg"
+        }
+    },
+    {
+        "pk": 119,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp20451786",
+            "name": "TUNIC",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 46.5,
+            "category": [
+                8
+            ],
+            "rating": 1,
+            "image_url": "url_to_be_added19",
+            "image": "HOODIE_19.jpg"
+        }
+    },
+    {
+        "pk": 120,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp53907286",
+            "name": "SWEATER VEST",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 118.0,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added20",
+            "image": "HOODIE_20.jpg"
+        }
+    },
+    {
+        "pk": 121,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp96415278",
+            "name": "JUMPER",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 166.0,
+            "category": [
+                8,
+                6
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added21",
+            "image": "HOODIE_21.jpg"
+        }
+    },
+    {
+        "pk": 122,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp19086423",
+            "name": "HOODED TOP",
+            "description": "Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price": 143.5,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added22",
+            "image": "HOODIE_22.jpg"
+        }
+    },
+    {
+        "pk": 123,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp90234867",
+            "name": "PULLOVER",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 125.5,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added23",
+            "image": "HOODIE_23.jpg"
+        }
+    },
+    {
+        "pk": 124,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp31256879",
+            "name": "SWEATER",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 117.0,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added24",
+            "image": "HOODIE_24.jpg"
+        }
+    },
+    {
+        "pk": 125,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp35972460",
+            "name": "SWEATSHIRT",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 134.5,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added25",
+            "image": "HOODIE_25.jpg"
+        }
+    },
+    {
+        "pk": 126,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp30421965",
+            "name": "FLEECE",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 71.0,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added26",
+            "image": "HOODIE_26.jpg"
+        }
+    },
+    {
+        "pk": 127,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp20468317",
+            "name": "JUMPER",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 158.5,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added27",
+            "image": "HOODIE_27.jpg"
+        }
+    },
+    {
+        "pk": 128,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp46538209",
+            "name": "SWEATSHIRT",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 62.0,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added28",
+            "image": "HOODIE_28.jpg"
+        }
+    },
+    {
+        "pk": 129,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp25937184",
+            "name": "SLOUCHY",
+            "description": "Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price": 76.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added29",
+            "image": "HOODIE_29.jpg"
+        }
+    },
+    {
+        "pk": 130,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp71346250",
+            "name": "ZIP-UP",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 27.5,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added30",
+            "image": "HOODIE_30.jpg"
+        }
+    },
+    {
+        "pk": 131,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp56312489",
+            "name": "CARDIGAN",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 159.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added31",
+            "image": "HOODIE_31.jpg"
+        }
+    },
+    {
+        "pk": 132,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp62305487",
+            "name": "TUNIC",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 58.5,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added32",
+            "image": "HOODIE_32.jpg"
+        }
+    },
+    {
+        "pk": 133,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp40517398",
+            "name": "ZIP-UP",
+            "description": "Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price": 86.0,
+            "category": [
+                8,
+                5,
+                6
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added33",
+            "image": "HOODIE_33.jpg"
+        }
+    },
+    {
+        "pk": 134,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp94706512",
+            "name": "JUMPER",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 142.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added34",
+            "image": "HOODIE_34.jpg"
+        }
+    },
+    {
+        "pk": 135,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp42618530",
+            "name": "HOODY",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 112.5,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added35",
+            "image": "HOODIE_35.jpg"
+        }
+    },
+    {
+        "pk": 136,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp76105928",
+            "name": "SWEATER",
+            "description": "Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price": 26.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added36",
+            "image": "HOODIE_36.jpg"
+        }
+    },
+    {
+        "pk": 137,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp45217386",
+            "name": "ZIP-UP",
+            "description": "Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price": 161.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added37",
+            "image": "HOODIE_37.jpg"
+        }
+    },
+    {
+        "pk": 138,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp92584307",
+            "name": "TURTLENECK",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 137.5,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 1,
+            "image_url": "url_to_be_added38",
+            "image": "HOODIE_38.jpg"
+        }
+    },
+    {
+        "pk": 139,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp17960523",
+            "name": "PULLOVER",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 22.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added39",
+            "image": "HOODIE_39.jpg"
+        }
+    },
+    {
+        "pk": 140,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp29804573",
+            "name": "ZIP-UP",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 91.5,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added40",
+            "image": "HOODIE_40.jpg"
+        }
+    },
+    {
+        "pk": 141,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp43051768",
+            "name": "HOODIE",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 161.5,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 1,
+            "image_url": "url_to_be_added41",
+            "image": "HOODIE_41.jpg"
+        }
+    },
+    {
+        "pk": 142,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp76952304",
+            "name": "SWEATSHIRT",
+            "description": "Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price": 190.0,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added42",
+            "image": "HOODIE_42.jpg"
+        }
+    },
+    {
+        "pk": 143,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp28615340",
+            "name": "SWEATER VEST",
+            "description": "Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price": 122.0,
+            "category": [
+                8,
+                5,
+                4
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added43",
+            "image": "HOODIE_43.jpg"
+        }
+    },
+    {
+        "pk": 144,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp01927584",
+            "name": "TURTLENECK",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 91.0,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added44",
+            "image": "HOODIE_44.jpg"
+        }
+    },
+    {
+        "pk": 145,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp80597126",
+            "name": "HOODIE",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 153.5,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added45",
+            "image": "HOODIE_45.jpg"
+        }
+    },
+    {
+        "pk": 146,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp01924568",
+            "name": "JUMPER",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 113.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added46",
+            "image": "HOODIE_46.jpg"
+        }
+    },
+    {
+        "pk": 147,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp51382794",
+            "name": "TURTLENECK",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 91.0,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added47",
+            "image": "HOODIE_47.jpg"
+        }
+    },
+    {
+        "pk": 148,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp58430176",
+            "name": "SWEATER",
+            "description": "Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price": 40.0,
+            "category": [
+                8,
+                6
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added48",
+            "image": "HOODIE_48.jpg"
+        }
+    },
+    {
+        "pk": 149,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp47618052",
+            "name": "HOODIE",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 116.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added49",
+            "image": "HOODIE_49.jpg"
+        }
+    },
+    {
+        "pk": 150,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp39615082",
+            "name": "SWEATSHIRT",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 89.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added50",
+            "image": "HOODIE_50.jpg"
+        }
+    },
+    {
+        "pk": 151,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp28794165",
+            "name": "CARDIGAN",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 71.5,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added51",
+            "image": "HOODIE_51.jpg"
+        }
+    },
+    {
+        "pk": 152,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp94785063",
+            "name": "ZIP-UP",
+            "description": "Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price": 188.0,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added52",
+            "image": "HOODIE_52.jpg"
+        }
+    },
+    {
+        "pk": 153,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp42170598",
+            "name": "SLOUCHY",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 159.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added53",
+            "image": "HOODIE_53.jpg"
+        }
+    },
+    {
+        "pk": 154,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp28605143",
+            "name": "ZIP-UP",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 88.0,
+            "category": [
+                8
+            ],
+            "rating": 1,
+            "image_url": "url_to_be_added54",
+            "image": "HOODIE_54.jpg"
+        }
+    },
+    {
+        "pk": 155,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp49503872",
+            "name": "HOODED TOP",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 34.5,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added55",
+            "image": "HOODIE_55.jpg"
+        }
+    },
+    {
+        "pk": 156,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp23095741",
+            "name": "PULLOVER",
+            "description": "Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price": 179.5,
+            "category": [
+                8,
+                5,
+                4
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added56",
+            "image": "HOODIE_56.jpg"
+        }
+    },
+    {
+        "pk": 157,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp05276389",
+            "name": "HOODY",
+            "description": "Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price": 24.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added57",
+            "image": "HOODIE_57.jpg"
+        }
+    },
+    {
+        "pk": 158,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp83294065",
+            "name": "FLEECE",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 73.5,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 1,
+            "image_url": "url_to_be_added58",
+            "image": "HOODIE_58.jpg"
+        }
+    },
+    {
+        "pk": 159,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp69723850",
+            "name": "SWEATER VEST",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 146.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added59",
+            "image": "HOODIE_59.jpg"
+        }
+    },
+    {
+        "pk": 160,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp15423697",
+            "name": "HOODIE",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 124.5,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added60",
+            "image": "HOODIE_60.jpg"
+        }
+    },
+    {
+        "pk": 161,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp51768402",
+            "name": "HOODY",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 127.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added61",
+            "image": "HOODIE_61.jpg"
+        }
+    },
+    {
+        "pk": 162,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp29065173",
+            "name": "JUMPER",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 26.0,
+            "category": [
+                8
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added62",
+            "image": "HOODIE_62.jpg"
+        }
+    },
+    {
+        "pk": 163,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp52719086",
+            "name": "SLOUCHY",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 84.0,
+            "category": [
+                8
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added63",
+            "image": "HOODIE_63.jpg"
+        }
+    },
+    {
+        "pk": 164,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp08719534",
+            "name": "FLEECE",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 169.0,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added64",
+            "image": "HOODIE_64.jpg"
+        }
+    },
+    {
+        "pk": 165,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp15829476",
+            "name": "FLEECE",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 72.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added65",
+            "image": "HOODIE_65.jpg"
+        }
+    },
+    {
+        "pk": 166,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp94620785",
+            "name": "SWEATER VEST",
+            "description": "Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price": 33.0,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added66",
+            "image": "HOODIE_66.jpg"
+        }
+    },
+    {
+        "pk": 167,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp98352174",
+            "name": "JUMPER",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 171.0,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added67",
+            "image": "HOODIE_67.jpg"
+        }
+    },
+    {
+        "pk": 168,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp82603147",
+            "name": "FLEECE",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 100.5,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added68",
+            "image": "HOODIE_68.jpg"
+        }
+    },
+    {
+        "pk": 169,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp72983405",
+            "name": "SWEATER VEST",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 99.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added69",
+            "image": "HOODIE_69.jpg"
+        }
+    },
+    {
+        "pk": 170,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp37826951",
+            "name": "HOODED TOP",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 83.0,
+            "category": [
+                8
+            ],
+            "rating": 1,
+            "image_url": "url_to_be_added70",
+            "image": "HOODIE_70.jpg"
+        }
+    },
+    {
+        "pk": 171,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp76108532",
+            "name": "OVERHEAD",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 93.0,
+            "category": [
+                8
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added71",
+            "image": "HOODIE_71.jpg"
+        }
+    },
+    {
+        "pk": 172,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp08159427",
+            "name": "SWEATSHIRT",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 22.5,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added72",
+            "image": "HOODIE_72.jpg"
+        }
+    },
+    {
+        "pk": 173,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp06719834",
+            "name": "CARDIGAN",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 141.5,
+            "category": [
+                8
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added73",
+            "image": "HOODIE_73.jpg"
+        }
+    },
+    {
+        "pk": 174,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp41937802",
+            "name": "ZIP-UP",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 62.0,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added74",
+            "image": "HOODIE_74.jpg"
+        }
+    },
+    {
+        "pk": 175,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp45903782",
+            "name": "SWEATER",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 156.5,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added75",
+            "image": "HOODIE_75.jpg"
+        }
+    },
+    {
+        "pk": 176,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp72864019",
+            "name": "TURTLENECK",
+            "description": "Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price": 115.0,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added76",
+            "image": "HOODIE_76.jpg"
+        }
+    },
+    {
+        "pk": 177,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp95026387",
+            "name": "JUMPER",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 151.5,
+            "category": [
+                8
+            ],
+            "rating": 3,
+            "image_url": "url_to_be_added77",
+            "image": "HOODIE_77.jpg"
+        }
+    },
+    {
+        "pk": 178,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp17896324",
+            "name": "SWEATER VEST",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 182.0,
+            "category": [
+                8,
+                6
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added78",
+            "image": "HOODIE_78.jpg"
+        }
+    },
+    {
+        "pk": 179,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp50687324",
+            "name": "HOODY",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 58.0,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added79",
+            "image": "HOODIE_79.jpg"
+        }
+    },
+    {
+        "pk": 180,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp20385961",
+            "name": "SWEATSHIRT",
+            "description": "Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price": 175.0,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added80",
+            "image": "HOODIE_80.jpg"
+        }
+    },
+    {
+        "pk": 181,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp17085934",
+            "name": "PULLOVER",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 127.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added81",
+            "image": "HOODIE_81.jpg"
+        }
+    },
+    {
+        "pk": 182,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp94317568",
+            "name": "SWEATER",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 36.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added82",
+            "image": "HOODIE_82.jpg"
+        }
+    },
+    {
+        "pk": 183,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp45029867",
+            "name": "FLEECE",
+            "description": "Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price": 112.0,
+            "category": [
+                8,
+                6
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added83",
+            "image": "HOODIE_83.jpg"
+        }
+    },
+    {
+        "pk": 184,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp70164259",
+            "name": "PULLOVER",
+            "description": "Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price": 121.0,
+            "category": [
+                8,
+                4
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added84",
+            "image": "HOODIE_84.jpg"
+        }
+    },
+    {
+        "pk": 185,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp43907586",
+            "name": "TUNIC",
+            "description": "Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price": 197.0,
+            "category": [
+                8
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added85",
+            "image": "HOODIE_85.jpg"
+        }
+    },
+    {
+        "pk": 186,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp60349271",
+            "name": "HOODY",
+            "description": "Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price": 126.5,
+            "category": [
+                8
+            ],
+            "rating": 4,
+            "image_url": "url_to_be_added86",
+            "image": "HOODIE_86.jpg"
+        }
+    },
+    {
+        "pk": 187,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp45819630",
+            "name": "OVERHEAD",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 45.0,
+            "category": [
+                8,
+                5
+            ],
+            "rating": 5,
+            "image_url": "url_to_be_added87",
+            "image": "HOODIE_87.jpg"
+        }
+    },
+    {
+        "pk": 188,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp54760938",
+            "name": "HOODED TOP",
+            "description": "Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price": 138.5,
+            "category": [
+                8
+            ],
+            "rating": 2,
+            "image_url": "url_to_be_added88",
+            "image": "HOODIE_88.jpg"
+        }
+    }
+]

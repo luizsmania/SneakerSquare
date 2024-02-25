@@ -1399,18 +1399,3008 @@
           "image":"PUMA_TRAIN_35.jpg"
        }
     },
-    {
-       "pk":101,
-       "model":"products.product",
-       "fields":{
-          "sku":"pp5822057874",
-          "name":"Puma Mayze Ut",
-          "description":"Experience unrivaled comfort and support with these premium Puma shoes, designed for athletes and fashion enthusiasts alike.",
-          "price":248.0,
-          "category": [2],
-          "rating":3,
-          "image_url":"url_to_be_added101",
-          "image":"PUMA_TRAIN_36.jpg"
-       }
-    }
+      {
+         "pk":101,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp05287349",
+            "name":"Tunic",
+            "description":"Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price":121.0,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added1",
+            "image":"HOODIE1.jpg"
+         }
+      },
+      {
+         "pk":102,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp93276415",
+            "name":"Sweatshirt",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":116.0,
+            "category":[
+               8,
+               6,
+               4,
+               5
+            ],
+            "rating":1,
+            "image_url":"url_to_be_added2",
+            "image":"HOODIE2.jpg"
+         }
+      },
+      {
+         "pk":103,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp12785963",
+            "name":"Jumper",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":108.0,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added3",
+            "image":"HOODIE3.jpg"
+         }
+      },
+      {
+         "pk":104,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp42867095",
+            "name":"Overhead",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":191.0,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added4",
+            "image":"HOODIE4.jpg"
+         }
+      },
+      {
+         "pk":105,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp32456971",
+            "name":"Hooded Top",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":194.5,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added5",
+            "image":"HOODIE5.jpg"
+         }
+      },
+      {
+         "pk":106,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp93780512",
+            "name":"Hoodie",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":101.5,
+            "category":[
+               8
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added6",
+            "image":"HOODIE6.jpg"
+         }
+      },
+      {
+         "pk":107,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp40829516",
+            "name":"Hoody",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":23.5,
+            "category":[
+               8,
+               5
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added7",
+            "image":"HOODIE7.jpg"
+         }
+      },
+      {
+         "pk":108,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp79582031",
+            "name":"Zip-Up",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":114.5,
+            "category":[
+               8,
+               4,
+               6
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added8",
+            "image":"HOODIE8.jpg"
+         }
+      },
+      {
+         "pk":109,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp41570983",
+            "name":"Sweater Vest",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":51.0,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added9",
+            "image":"HOODIE9.jpg"
+         }
+      },
+      {
+         "pk":110,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp26058941",
+            "name":"Jumper",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":157.5,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added10",
+            "image":"HOODIE10.jpg"
+         }
+      },
+      {
+         "pk":111,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp73852901",
+            "name":"Hoody",
+            "description":"Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price":93.5,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added11",
+            "image":"HOODIE11.jpg"
+         }
+      },
+      {
+         "pk":112,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp06941583",
+            "name":"Hoodie",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":153.5,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added12",
+            "image":"HOODIE12.jpg"
+         }
+      },
+      {
+         "pk":113,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp48167935",
+            "name":"Sweater Vest",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":100.0,
+            "category":[
+               8,
+               5,
+               6,
+               4
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added13",
+            "image":"HOODIE13.jpg"
+         }
+      },
+      {
+         "pk":114,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp90286157",
+            "name":"Hooded Top",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":20.5,
+            "category":[
+               8
+            ],
+            "rating":2,
+            "image_url":"url_to_be_added14",
+            "image":"HOODIE14.jpg"
+         }
+      },
+      {
+         "pk":115,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp79586432",
+            "name":"Fleece",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":88.5,
+            "category":[
+               8,
+               6,
+               4,
+               5
+            ],
+            "rating":1,
+            "image_url":"url_to_be_added15",
+            "image":"HOODIE15.jpg"
+         }
+      },
+      {
+         "pk":116,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp58069417",
+            "name":"Jumper",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":156.5,
+            "category":[
+               8
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added16",
+            "image":"HOODIE16.jpg"
+         }
+      },
+      {
+         "pk":117,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp87395126",
+            "name":"Tunic",
+            "description":"Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price":68.5,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added17",
+            "image":"HOODIE17.jpg"
+         }
+      },
+      {
+         "pk":118,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp53972140",
+            "name":"Cardigan",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":78.0,
+            "category":[
+               8,
+               4,
+               5,
+               6
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added18",
+            "image":"HOODIE18.jpg"
+         }
+      },
+      {
+         "pk":119,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp82760145",
+            "name":"Slouchy",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":33.0,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added19",
+            "image":"HOODIE19.jpg"
+         }
+      },
+      {
+         "pk":120,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp43512968",
+            "name":"Zip-Up",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":44.5,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added20",
+            "image":"HOODIE20.jpg"
+         }
+      },
+      {
+         "pk":121,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp45238971",
+            "name":"Slouchy",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":179.5,
+            "category":[
+               8,
+               4,
+               6,
+               5
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added21",
+            "image":"HOODIE21.jpg"
+         }
+      },
+      {
+         "pk":122,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp70486935",
+            "name":"Pullover",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":38.0,
+            "category":[
+               8,
+               5
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added22",
+            "image":"HOODIE22.jpg"
+         }
+      },
+      {
+         "pk":123,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp05328147",
+            "name":"Turtleneck",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":53.0,
+            "category":[
+               8,
+               5
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added23",
+            "image":"HOODIE23.jpg"
+         }
+      },
+      {
+         "pk":124,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp45612709",
+            "name":"Seater",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":125.5,
+            "category":[
+               8
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added24",
+            "image":"HOODIE24.jpg"
+         }
+      },
+      {
+         "pk":125,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp02319678",
+            "name":"Jumper",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":99.0,
+            "category":[
+               8,
+               4,
+               6
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added25",
+            "image":"HOODIE25.jpg"
+         }
+      },
+      {
+         "pk":126,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp16590782",
+            "name":"Seater",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":66.0,
+            "category":[
+               8,
+               5,
+               6
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added26",
+            "image":"HOODIE26.jpg"
+         }
+      },
+      {
+         "pk":127,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp98746231",
+            "name":"Hooded Top",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":121.0,
+            "category":[
+               8,
+               4,
+               5
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added27",
+            "image":"HOODIE27.jpg"
+         }
+      },
+      {
+         "pk":128,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp10672834",
+            "name":"Turtleneck",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":180.0,
+            "category":[
+               8,
+               5
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added28",
+            "image":"HOODIE28.jpg"
+         }
+      },
+      {
+         "pk":129,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp07453219",
+            "name":"Tunic",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":149.0,
+            "category":[
+               8,
+               5
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added29",
+            "image":"HOODIE29.jpg"
+         }
+      },
+      {
+         "pk":130,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp28541063",
+            "name":"Sweater Vest",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":199.0,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added30",
+            "image":"HOODIE30.jpg"
+         }
+      },
+      {
+         "pk":131,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp76902348",
+            "name":"Zip-Up",
+            "description":"Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price":160.0,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added31",
+            "image":"HOODIE31.jpg"
+         }
+      },
+      {
+         "pk":132,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp06519374",
+            "name":"Overhead",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":174.5,
+            "category":[
+               8,
+               5,
+               6
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added32",
+            "image":"HOODIE32.jpg"
+         }
+      },
+      {
+         "pk":133,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp49610358",
+            "name":"Hoody",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":168.0,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added33",
+            "image":"HOODIE33.jpg"
+         }
+      },
+      {
+         "pk":134,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp71690843",
+            "name":"Sweatshirt",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":181.5,
+            "category":[
+               8,
+               5,
+               6,
+               4
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added34",
+            "image":"HOODIE34.jpg"
+         }
+      },
+      {
+         "pk":135,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp90358217",
+            "name":"Cardigan",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":43.5,
+            "category":[
+               8
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added35",
+            "image":"HOODIE35.jpg"
+         }
+      },
+      {
+         "pk":136,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp35628174",
+            "name":"Overhead",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":44.0,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added36",
+            "image":"HOODIE36.jpg"
+         }
+      },
+      {
+         "pk":137,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp80347256",
+            "name":"Cardigan",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":46.0,
+            "category":[
+               8
+            ],
+            "rating":2,
+            "image_url":"url_to_be_added37",
+            "image":"HOODIE37.jpg"
+         }
+      },
+      {
+         "pk":138,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp75029814",
+            "name":"Fleece",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":101.5,
+            "category":[
+               8,
+               4,
+               6,
+               5
+            ],
+            "rating":2,
+            "image_url":"url_to_be_added38",
+            "image":"HOODIE38.jpg"
+         }
+      },
+      {
+         "pk":139,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp28391406",
+            "name":"Fleece",
+            "description":"Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price":126.0,
+            "category":[
+               8,
+               6,
+               4,
+               5
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added39",
+            "image":"HOODIE39.jpg"
+         }
+      },
+      {
+         "pk":140,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp93418527",
+            "name":"Fleece",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":89.5,
+            "category":[
+               8,
+               6,
+               4,
+               5
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added40",
+            "image":"HOODIE40.jpg"
+         }
+      },
+      {
+         "pk":141,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp91674825",
+            "name":"Overhead",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":183.5,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added41",
+            "image":"HOODIE41.jpg"
+         }
+      },
+      {
+         "pk":142,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp49182035",
+            "name":"Sweatshirt",
+            "description":"Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price":151.5,
+            "category":[
+               8,
+               6
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added42",
+            "image":"HOODIE42.jpg"
+         }
+      },
+      {
+         "pk":143,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp46201357",
+            "name":"Tunic",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":123.5,
+            "category":[
+               8,
+               5,
+               4
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added43",
+            "image":"HOODIE43.jpg"
+         }
+      },
+      {
+         "pk":144,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp74230861",
+            "name":"Hooded Top",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":124.5,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added44",
+            "image":"HOODIE44.jpg"
+         }
+      },
+      {
+         "pk":145,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp46309278",
+            "name":"Hooded Top",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":71.0,
+            "category":[
+               8
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added45",
+            "image":"HOODIE45.jpg"
+         }
+      },
+      {
+         "pk":146,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp39764108",
+            "name":"Cardigan",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":117.0,
+            "category":[
+               8
+            ],
+            "rating":2,
+            "image_url":"url_to_be_added46",
+            "image":"HOODIE46.jpg"
+         }
+      },
+      {
+         "pk":147,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp04862391",
+            "name":"Hoody",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":118.0,
+            "category":[
+               8,
+               5
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added47",
+            "image":"HOODIE47.jpg"
+         }
+      },
+      {
+         "pk":148,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp02364987",
+            "name":"Sweatshirt",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":131.0,
+            "category":[
+               8,
+               5,
+               6
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added48",
+            "image":"HOODIE48.jpg"
+         }
+      },
+      {
+         "pk":149,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp98106427",
+            "name":"Tunic",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":129.0,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added49",
+            "image":"HOODIE49.jpg"
+         }
+      },
+      {
+         "pk":150,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp71249305",
+            "name":"Hooded Top",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":46.0,
+            "category":[
+               8,
+               5,
+               4,
+               6
+            ],
+            "rating":2,
+            "image_url":"url_to_be_added50",
+            "image":"HOODIE50.jpg"
+         }
+      },
+      {
+         "pk":151,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp52943871",
+            "name":"Hoody",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":59.0,
+            "category":[
+               8
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added51",
+            "image":"HOODIE51.jpg"
+         }
+      },
+      {
+         "pk":152,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp18529643",
+            "name":"Jumper",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":87.5,
+            "category":[
+               8,
+               4,
+               6
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added52",
+            "image":"HOODIE52.jpg"
+         }
+      },
+      {
+         "pk":153,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp62938147",
+            "name":"Hooded Top",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":52.0,
+            "category":[
+               8,
+               4,
+               6,
+               5
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added53",
+            "image":"HOODIE53.jpg"
+         }
+      },
+      {
+         "pk":154,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp50398417",
+            "name":"Zip-Up",
+            "description":"Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price":112.5,
+            "category":[
+               8,
+               5,
+               6
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added54",
+            "image":"HOODIE54.jpg"
+         }
+      },
+      {
+         "pk":155,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp86052417",
+            "name":"Sweatshirt",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":147.5,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added55",
+            "image":"HOODIE55.jpg"
+         }
+      },
+      {
+         "pk":156,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp78051469",
+            "name":"Hoodie",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":189.5,
+            "category":[
+               8,
+               4,
+               6
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added56",
+            "image":"HOODIE56.jpg"
+         }
+      },
+      {
+         "pk":157,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp42371680",
+            "name":"Hooded Top",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":176.0,
+            "category":[
+               8,
+               4
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added57",
+            "image":"HOODIE57.jpg"
+         }
+      },
+      {
+         "pk":158,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp17428605",
+            "name":"Jumper",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":128.5,
+            "category":[
+               8
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added58",
+            "image":"HOODIE58.jpg"
+         }
+      },
+      {
+         "pk":159,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp02314795",
+            "name":"Sweater Vest",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":165.0,
+            "category":[
+               8,
+               5
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added59",
+            "image":"HOODIE59.jpg"
+         }
+      },
+      {
+         "pk":160,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp93514782",
+            "name":"Turtleneck",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":22.5,
+            "category":[
+               8,
+               5,
+               4
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added60",
+            "image":"HOODIE60.jpg"
+         }
+      },
+      {
+         "pk":161,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp45896307",
+            "name":"Sweatshirt",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":137.5,
+            "category":[
+               8,
+               5,
+               6,
+               4
+            ],
+            "rating":3,
+            "image_url":"url_to_be_added61",
+            "image":"HOODIE61.jpg"
+         }
+      },
+      {
+         "pk":162,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp04128936",
+            "name":"Seater",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":34.5,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added62",
+            "image":"HOODIE62.jpg"
+         }
+      },
+      {
+         "pk":163,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp56948312",
+            "name":"Hoody",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":196.0,
+            "category":[
+               8,
+               5
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added63",
+            "image":"HOODIE63.jpg"
+         }
+      },
+      {
+         "pk":164,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp17034586",
+            "name":"Sweatshirt",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":112.0,
+            "category":[
+               8
+            ],
+            "rating":2,
+            "image_url":"url_to_be_added64",
+            "image":"HOODIE64.jpg"
+         }
+      },
+      {
+         "pk":165,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp67581249",
+            "name":"Turtleneck",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":136.5,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added65",
+            "image":"HOODIE65.jpg"
+         }
+      },
+      {
+         "pk":166,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp10796853",
+            "name":"Fleece",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":103.0,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added66",
+            "image":"HOODIE66.jpg"
+         }
+      },
+      {
+         "pk":167,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp52468013",
+            "name":"Sweater Vest",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":152.0,
+            "category":[
+               8,
+               5,
+               6
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added67",
+            "image":"HOODIE67.jpg"
+         }
+      },
+      {
+         "pk":168,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp26073591",
+            "name":"Hoody",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":42.0,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added68",
+            "image":"HOODIE68.jpg"
+         }
+      },
+      {
+         "pk":169,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp39704851",
+            "name":"Cardigan",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":199.5,
+            "category":[
+               8,
+               5
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added69",
+            "image":"HOODIE69.jpg"
+         }
+      },
+      {
+         "pk":170,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp49187523",
+            "name":"Overhead",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":180.5,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added70",
+            "image":"HOODIE70.jpg"
+         }
+      },
+      {
+         "pk":171,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp67123059",
+            "name":"Turtleneck",
+            "description":"Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price":143.0,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added71",
+            "image":"HOODIE71.jpg"
+         }
+      },
+      {
+         "pk":172,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp50169278",
+            "name":"Seater",
+            "description":"Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price":89.5,
+            "category":[
+               8,
+               5
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added72",
+            "image":"HOODIE72.jpg"
+         }
+      },
+      {
+         "pk":173,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp53024876",
+            "name":"Jumper",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":90.0,
+            "category":[
+               8,
+               5,
+               6,
+               4
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added73",
+            "image":"HOODIE73.jpg"
+         }
+      },
+      {
+         "pk":174,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp79081536",
+            "name":"Hoodie",
+            "description":"Experience ultimate coziness with our premium hoodie range. Designed for maximum comfort, this hoodie features a relaxed fit and ultra-soft fabric. Its minimalist aesthetic is elevated with subtle detailing, adding a touch of sophistication to your casual look. Whether you're lounging at home or out and about, this hoodie ensures effortless style and comfort.",
+            "price":115.5,
+            "category":[
+               8,
+               4
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added74",
+            "image":"HOODIE74.jpg"
+         }
+      },
+      {
+         "pk":175,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp69135784",
+            "name":"Turtleneck",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":68.0,
+            "category":[
+               8,
+               5
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added75",
+            "image":"HOODIE75.jpg"
+         }
+      },
+      {
+         "pk":176,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp82653419",
+            "name":"Overhead",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":183.0,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added76",
+            "image":"HOODIE76.jpg"
+         }
+      },
+      {
+         "pk":177,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp89514762",
+            "name":"Fleece",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":168.0,
+            "category":[
+               8,
+               4
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added77",
+            "image":"HOODIE77.jpg"
+         }
+      },
+      {
+         "pk":178,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp70942531",
+            "name":"Hoody",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":122.0,
+            "category":[
+               8
+            ],
+            "rating":2,
+            "image_url":"url_to_be_added78",
+            "image":"HOODIE78.jpg"
+         }
+      },
+      {
+         "pk":179,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp36721489",
+            "name":"Sweatshirt",
+            "description":"Elevate your street style with our statement hoodie range. Bold and eye-catching, this hoodie features striking graphics and modern design elements. Crafted from premium materials, it offers superior comfort and durability. Whether you're hitting the streets or lounging with friends, this hoodie makes a statement while keeping you cozy and stylish.",
+            "price":120.5,
+            "category":[
+               8,
+               5
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added79",
+            "image":"HOODIE79.jpg"
+         }
+      },
+      {
+         "pk":180,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp31769082",
+            "name":"Hoodie",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":78.0,
+            "category":[
+               8,
+               5,
+               4
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added80",
+            "image":"HOODIE80.jpg"
+         }
+      },
+      {
+         "pk":181,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp62498375",
+            "name":"Overhead",
+            "description":"Embrace casual sophistication with our latest hoodie offering. Designed for both comfort and style, this hoodie boasts a modern silhouette and premium fabric construction. Whether you're running errands or relaxing at home, its versatile design ensures effortless elegance. Elevate your everyday wardrobe with this essential layering piece.",
+            "price":162.0,
+            "category":[
+               8
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added81",
+            "image":"HOODIE81.jpg"
+         }
+      },
+      {
+         "pk":182,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp16734089",
+            "name":"Hoodie",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":32.0,
+            "category":[
+               8
+            ],
+            "rating":2,
+            "image_url":"url_to_be_added82",
+            "image":"HOODIE82.jpg"
+         }
+      },
+      {
+         "pk":183,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp19453068",
+            "name":"Tunic",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":154.0,
+            "category":[
+               8
+            ],
+            "rating":2,
+            "image_url":"url_to_be_added83",
+            "image":"HOODIE83.jpg"
+         }
+      },
+      {
+         "pk":184,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp86194372",
+            "name":"Tunic",
+            "description":"Upgrade your casual wardrobe with our latest hoodie collection. Crafted with attention to detail, this hoodie offers a contemporary twist on a classic staple. Its sleek design and high-quality materials ensure long-lasting comfort and style. Perfect for layering or standalone wear, this versatile hoodie effortlessly transitions from day to night with ease.",
+            "price":70.5,
+            "category":[
+               8
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added84",
+            "image":"HOODIE84.jpg"
+         }
+      },
+      {
+         "pk":185,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp80357146",
+            "name":"Tunic",
+            "description":"Indulge in cozy comfort with our plush hoodie selection. Crafted from luxurious materials, this hoodie envelops you in warmth while maintaining a chic aesthetic. Its understated design features subtle details for added flair. Perfect for lounging or layering, this hoodie is a go-to choice for effortless elegance and relaxation.",
+            "price":38.5,
+            "category":[
+               8,
+               5,
+               4,
+               6
+            ],
+            "rating":5,
+            "image_url":"url_to_be_added85",
+            "image":"HOODIE85.jpg"
+         }
+      },
+      {
+         "pk":186,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp35609748",
+            "name":"Zip-Up",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":161.5,
+            "category":[
+               8,
+               5,
+               4
+            ],
+            "rating":4,
+            "image_url":"url_to_be_added86",
+            "image":"HOODIE86.jpg"
+         }
+      },
+      {
+         "pk":187,
+         "model":"products.product",
+         "fields":{
+            "sku":"pp95286173",
+            "name":"Overhead",
+            "description":"Discover the perfect balance of style and comfort in our latest hoodie collection. Engineered with innovative fabrics, this hoodie offers superior softness and durability. Its modern design combines functionality with fashion-forward elements, making it a versatile addition to any wardrobe. From gym sessions to weekend outings, this hoodie keeps you looking and feeling your best.",
+            "price":44.5,
+            "category":[
+               8
+            ],
+            "rating":2,
+            "image_url":"url_to_be_added87",
+            "image":"HOODIE87.jpg"
+         }
+      },   
+      {
+         "pk": 189,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp54192306",
+             "name": "Vintage Washed Shirt",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 95.0,
+             "category": [
+                 7,
+                 6,
+                 5,
+                 4
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added1",
+             "image": "TSHIRT1.jpg"
+         }
+     },
+     {
+         "pk": 190,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp85971623",
+             "name": "Athletic Performance Tee",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 70.5,
+             "category": [
+                 7,
+                 6,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added2",
+             "image": "TSHIRT2.jpg"
+         }
+     },
+     {
+         "pk": 191,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp45093867",
+             "name": "Essential V-Neck Top",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 138.0,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added3",
+             "image": "TSHIRT3.jpg"
+         }
+     },
+     {
+         "pk": 192,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp73265904",
+             "name": "Everyday Jersey Tee",
+             "description": "Embrace laid-back luxury with our vintage washed shirt. Made from ultra-soft fabric with a gently worn-in feel, this tee exudes effortless cool. Its relaxed fit and understated detailing make it ideal for lazy weekends and casual outings. Pair it with joggers for a cozy night in or with chinos for a relaxed day out.",
+             "price": 37.0,
+             "category": [
+                 7
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added4",
+             "image": "TSHIRT4.jpg"
+         }
+     },
+     {
+         "pk": 193,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp61740298",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 57.5,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added5",
+             "image": "TSHIRT5.jpg"
+         }
+     },
+     {
+         "pk": 194,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp89730245",
+             "name": "Basic Crewneck Shirt",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 149.5,
+             "category": [
+                 7,
+                 4,
+                 5,
+                 6
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added6",
+             "image": "TSHIRT6.jpg"
+         }
+     },
+     {
+         "pk": 195,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp75240916",
+             "name": "Essential V-Neck Top",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 132.0,
+             "category": [
+                 7,
+                 5
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added7",
+             "image": "TSHIRT7.jpg"
+         }
+     },
+     {
+         "pk": 196,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp38675012",
+             "name": "Relaxed Pocket Tee",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 52.5,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added8",
+             "image": "TSHIRT8.jpg"
+         }
+     },
+     {
+         "pk": 197,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp28673450",
+             "name": "Everyday Jersey Tee",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 122.5,
+             "category": [
+                 7,
+                 4,
+                 5,
+                 6
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added9",
+             "image": "TSHIRT9.jpg"
+         }
+     },
+     {
+         "pk": 198,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp38945021",
+             "name": "Relaxed Pocket Tee",
+             "description": "Stay cool and comfortable all day long in our athletic performance tee. Engineered with moisture-wicking technology, this tee keeps you dry and focused during even the most intense workouts. Its lightweight fabric and breathable design make it the perfect choice for hitting the gym or hitting the trails.",
+             "price": 143.5,
+             "category": [
+                 7
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added10",
+             "image": "TSHIRT10.jpg"
+         }
+     },
+     {
+         "pk": 199,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp65783419",
+             "name": "Relaxed Pocket Tee",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 20.5,
+             "category": [
+                 7
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added11",
+             "image": "TSHIRT11.jpg"
+         }
+     },
+     {
+         "pk": 200,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp36549820",
+             "name": "Casual Graphic Tee",
+             "description": "Stay cool and comfortable all day long in our athletic performance tee. Engineered with moisture-wicking technology, this tee keeps you dry and focused during even the most intense workouts. Its lightweight fabric and breathable design make it the perfect choice for hitting the gym or hitting the trails.",
+             "price": 61.5,
+             "category": [
+                 7
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added12",
+             "image": "TSHIRT12.jpg"
+         }
+     },
+     {
+         "pk": 201,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp60493175",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 131.0,
+             "category": [
+                 7,
+                 4,
+                 5,
+                 6
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added13",
+             "image": "TSHIRT13.jpg"
+         }
+     },
+     {
+         "pk": 202,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp74903586",
+             "name": "Vintage Washed Shirt",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 72.5,
+             "category": [
+                 7,
+                 6
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added14",
+             "image": "TSHIRT14.jpg"
+         }
+     },
+     {
+         "pk": 203,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp45793018",
+             "name": "Classic Cotton Tee",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 47.5,
+             "category": [
+                 7
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added15",
+             "image": "TSHIRT15.jpg"
+         }
+     },
+     {
+         "pk": 204,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp53108674",
+             "name": "Casual Graphic Tee",
+             "description": "Embrace laid-back luxury with our vintage washed shirt. Made from ultra-soft fabric with a gently worn-in feel, this tee exudes effortless cool. Its relaxed fit and understated detailing make it ideal for lazy weekends and casual outings. Pair it with joggers for a cozy night in or with chinos for a relaxed day out.",
+             "price": 142.0,
+             "category": [
+                 7,
+                 5,
+                 4
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added16",
+             "image": "TSHIRT16.jpg"
+         }
+     },
+     {
+         "pk": 205,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp79645203",
+             "name": "Everyday Jersey Tee",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 49.0,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added17",
+             "image": "TSHIRT17.jpg"
+         }
+     },
+     {
+         "pk": 206,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp78425391",
+             "name": "Essential V-Neck Top",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 101.5,
+             "category": [
+                 7,
+                 4
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added18",
+             "image": "TSHIRT18.jpg"
+         }
+     },
+     {
+         "pk": 207,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp25697034",
+             "name": "Athletic Performance Tee",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 105.0,
+             "category": [
+                 7
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added19",
+             "image": "TSHIRT19.jpg"
+         }
+     },
+     {
+         "pk": 208,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp46570823",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 37.5,
+             "category": [
+                 7,
+                 4,
+                 5,
+                 6
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added20",
+             "image": "TSHIRT20.jpg"
+         }
+     },
+     {
+         "pk": 209,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp56190827",
+             "name": "Relaxed Pocket Tee",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 24.0,
+             "category": [
+                 7
+             ],
+             "rating": 1,
+             "image_url": "url_to_be_added21",
+             "image": "TSHIRT21.jpg"
+         }
+     },
+     {
+         "pk": 210,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp02349716",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 140.0,
+             "category": [
+                 7,
+                 5,
+                 4
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added22",
+             "image": "TSHIRT22.jpg"
+         }
+     },
+     {
+         "pk": 211,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp14392706",
+             "name": "Everyday Jersey Tee",
+             "description": "Elevate your casual wardrobe with our classic cotton tee. Crafted from premium materials, this tee offers both comfort and style. Its timeless design and relaxed fit make it perfect for everyday wear. Pair it with your favorite jeans for a laid-back yet polished look.",
+             "price": 140.0,
+             "category": [
+                 7,
+                 6
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added23",
+             "image": "TSHIRT23.jpg"
+         }
+     },
+     {
+         "pk": 212,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp15734620",
+             "name": "Vintage Washed Shirt",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 44.0,
+             "category": [
+                 7
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added24",
+             "image": "TSHIRT24.jpg"
+         }
+     },
+     {
+         "pk": 213,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp41609528",
+             "name": "Basic Crewneck Shirt",
+             "description": "Elevate your casual wardrobe with our classic cotton tee. Crafted from premium materials, this tee offers both comfort and style. Its timeless design and relaxed fit make it perfect for everyday wear. Pair it with your favorite jeans for a laid-back yet polished look.",
+             "price": 129.5,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added25",
+             "image": "TSHIRT25.jpg"
+         }
+     },
+     {
+         "pk": 214,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp25783914",
+             "name": "Basic Crewneck Shirt",
+             "description": "Elevate your casual wardrobe with our classic cotton tee. Crafted from premium materials, this tee offers both comfort and style. Its timeless design and relaxed fit make it perfect for everyday wear. Pair it with your favorite jeans for a laid-back yet polished look.",
+             "price": 82.5,
+             "category": [
+                 7,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added26",
+             "image": "TSHIRT26.jpg"
+         }
+     },
+     {
+         "pk": 215,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp96417085",
+             "name": "Everyday Jersey Tee",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 138.0,
+             "category": [
+                 7,
+                 6,
+                 5
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added27",
+             "image": "TSHIRT27.jpg"
+         }
+     },
+     {
+         "pk": 216,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp23518079",
+             "name": "Basic Crewneck Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 96.5,
+             "category": [
+                 7,
+                 5,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added28",
+             "image": "TSHIRT28.jpg"
+         }
+     },
+     {
+         "pk": 217,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp08249673",
+             "name": "Basic Crewneck Shirt",
+             "description": "Embrace laid-back luxury with our vintage washed shirt. Made from ultra-soft fabric with a gently worn-in feel, this tee exudes effortless cool. Its relaxed fit and understated detailing make it ideal for lazy weekends and casual outings. Pair it with joggers for a cozy night in or with chinos for a relaxed day out.",
+             "price": 66.0,
+             "category": [
+                 7
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added29",
+             "image": "TSHIRT29.jpg"
+         }
+     },
+     {
+         "pk": 218,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp65308249",
+             "name": "Everyday Jersey Tee",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 98.5,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added30",
+             "image": "TSHIRT30.jpg"
+         }
+     },
+     {
+         "pk": 219,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp83295617",
+             "name": "Classic Cotton Tee",
+             "description": "Stay cool and comfortable all day long in our athletic performance tee. Engineered with moisture-wicking technology, this tee keeps you dry and focused during even the most intense workouts. Its lightweight fabric and breathable design make it the perfect choice for hitting the gym or hitting the trails.",
+             "price": 48.5,
+             "category": [
+                 7
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added31",
+             "image": "TSHIRT31.jpg"
+         }
+     },
+     {
+         "pk": 220,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp83260419",
+             "name": "Everyday Jersey Tee",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 86.0,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added32",
+             "image": "TSHIRT32.jpg"
+         }
+     },
+     {
+         "pk": 221,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp78026931",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Embrace laid-back luxury with our vintage washed shirt. Made from ultra-soft fabric with a gently worn-in feel, this tee exudes effortless cool. Its relaxed fit and understated detailing make it ideal for lazy weekends and casual outings. Pair it with joggers for a cozy night in or with chinos for a relaxed day out.",
+             "price": 35.5,
+             "category": [
+                 7,
+                 6,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added33",
+             "image": "TSHIRT33.jpg"
+         }
+     },
+     {
+         "pk": 222,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp87309625",
+             "name": "Basic Crewneck Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 79.5,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added34",
+             "image": "TSHIRT34.jpg"
+         }
+     },
+     {
+         "pk": 223,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp87604359",
+             "name": "Basic Crewneck Shirt",
+             "description": "Elevate your casual wardrobe with our classic cotton tee. Crafted from premium materials, this tee offers both comfort and style. Its timeless design and relaxed fit make it perfect for everyday wear. Pair it with your favorite jeans for a laid-back yet polished look.",
+             "price": 124.0,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added35",
+             "image": "TSHIRT35.jpg"
+         }
+     },
+     {
+         "pk": 224,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp84960521",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 112.0,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added36",
+             "image": "TSHIRT36.jpg"
+         }
+     },
+     {
+         "pk": 225,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp39750826",
+             "name": "Casual Graphic Tee",
+             "description": "Stay cool and comfortable all day long in our athletic performance tee. Engineered with moisture-wicking technology, this tee keeps you dry and focused during even the most intense workouts. Its lightweight fabric and breathable design make it the perfect choice for hitting the gym or hitting the trails.",
+             "price": 28.5,
+             "category": [
+                 7,
+                 5,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added37",
+             "image": "TSHIRT37.jpg"
+         }
+     },
+     {
+         "pk": 226,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp67153284",
+             "name": "Stylish Oversized T-Shirt",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 22.5,
+             "category": [
+                 7,
+                 5,
+                 4
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added38",
+             "image": "TSHIRT38.jpg"
+         }
+     },
+     {
+         "pk": 227,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp09142387",
+             "name": "Basic Crewneck Shirt",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 131.0,
+             "category": [
+                 7
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added39",
+             "image": "TSHIRT39.jpg"
+         }
+     },
+     {
+         "pk": 228,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp86243190",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 51.5,
+             "category": [
+                 7,
+                 5,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added40",
+             "image": "TSHIRT40.jpg"
+         }
+     },
+     {
+         "pk": 229,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp06219735",
+             "name": "Essential V-Neck Top",
+             "description": "Stay cool and comfortable all day long in our athletic performance tee. Engineered with moisture-wicking technology, this tee keeps you dry and focused during even the most intense workouts. Its lightweight fabric and breathable design make it the perfect choice for hitting the gym or hitting the trails.",
+             "price": 62.5,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added41",
+             "image": "TSHIRT41.jpg"
+         }
+     },
+     {
+         "pk": 230,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp71260834",
+             "name": "Everyday Jersey Tee",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 48.0,
+             "category": [
+                 7
+             ],
+             "rating": 1,
+             "image_url": "url_to_be_added42",
+             "image": "TSHIRT42.jpg"
+         }
+     },
+     {
+         "pk": 231,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp32514607",
+             "name": "Basic Crewneck Shirt",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 68.0,
+             "category": [
+                 7,
+                 5,
+                 6,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added43",
+             "image": "TSHIRT43.jpg"
+         }
+     },
+     {
+         "pk": 232,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp94078316",
+             "name": "Athletic Performance Tee",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 118.5,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added44",
+             "image": "TSHIRT44.jpg"
+         }
+     },
+     {
+         "pk": 233,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp60893712",
+             "name": "Athletic Performance Tee",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 102.5,
+             "category": [
+                 7,
+                 4,
+                 5
+             ],
+             "rating": 1,
+             "image_url": "url_to_be_added45",
+             "image": "TSHIRT45.jpg"
+         }
+     },
+     {
+         "pk": 234,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp89563107",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 135.5,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added46",
+             "image": "TSHIRT46.jpg"
+         }
+     },
+     {
+         "pk": 235,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp74596830",
+             "name": "Stylish Oversized T-Shirt",
+             "description": "Elevate your casual wardrobe with our classic cotton tee. Crafted from premium materials, this tee offers both comfort and style. Its timeless design and relaxed fit make it perfect for everyday wear. Pair it with your favorite jeans for a laid-back yet polished look.",
+             "price": 79.5,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added47",
+             "image": "TSHIRT47.jpg"
+         }
+     },
+     {
+         "pk": 236,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp70392145",
+             "name": "Everyday Jersey Tee",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 83.5,
+             "category": [
+                 7,
+                 4,
+                 6
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added48",
+             "image": "TSHIRT48.jpg"
+         }
+     },
+     {
+         "pk": 237,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp20673491",
+             "name": "Casual Graphic Tee",
+             "description": "Embrace laid-back luxury with our vintage washed shirt. Made from ultra-soft fabric with a gently worn-in feel, this tee exudes effortless cool. Its relaxed fit and understated detailing make it ideal for lazy weekends and casual outings. Pair it with joggers for a cozy night in or with chinos for a relaxed day out.",
+             "price": 132.5,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added49",
+             "image": "TSHIRT49.jpg"
+         }
+     },
+     {
+         "pk": 238,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp14753260",
+             "name": "Stylish Oversized T-Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 70.0,
+             "category": [
+                 7,
+                 5,
+                 4,
+                 6
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added50",
+             "image": "TSHIRT50.jpg"
+         }
+     },
+     {
+         "pk": 239,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp47256930",
+             "name": "Essential V-Neck Top",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 115.5,
+             "category": [
+                 7
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added51",
+             "image": "TSHIRT51.jpg"
+         }
+     },
+     {
+         "pk": 240,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp56734028",
+             "name": "Basic Crewneck Shirt",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 27.0,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added52",
+             "image": "TSHIRT52.jpg"
+         }
+     },
+     {
+         "pk": 241,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp08653214",
+             "name": "Athletic Performance Tee",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 143.5,
+             "category": [
+                 7,
+                 4
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added53",
+             "image": "TSHIRT53.jpg"
+         }
+     },
+     {
+         "pk": 242,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp30628951",
+             "name": "Relaxed Pocket Tee",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 81.5,
+             "category": [
+                 7,
+                 5,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added54",
+             "image": "TSHIRT54.jpg"
+         }
+     },
+     {
+         "pk": 243,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp03896157",
+             "name": "Essential V-Neck Top",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 86.5,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added55",
+             "image": "TSHIRT55.jpg"
+         }
+     },
+     {
+         "pk": 244,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp84793526",
+             "name": "Vintage Washed Shirt",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 48.0,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added56",
+             "image": "TSHIRT56.jpg"
+         }
+     },
+     {
+         "pk": 245,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp83624105",
+             "name": "Basic Crewneck Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 57.5,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added57",
+             "image": "TSHIRT57.jpg"
+         }
+     },
+     {
+         "pk": 246,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp03692751",
+             "name": "Essential V-Neck Top",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 86.0,
+             "category": [
+                 7
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added58",
+             "image": "TSHIRT58.jpg"
+         }
+     },
+     {
+         "pk": 247,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp30798524",
+             "name": "Athletic Performance Tee",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 92.0,
+             "category": [
+                 7
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added59",
+             "image": "TSHIRT59.jpg"
+         }
+     },
+     {
+         "pk": 248,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp50736849",
+             "name": "Relaxed Pocket Tee",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 34.5,
+             "category": [
+                 7
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added60",
+             "image": "TSHIRT60.jpg"
+         }
+     },
+     {
+         "pk": 249,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp20963478",
+             "name": "Relaxed Pocket Tee",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 24.5,
+             "category": [
+                 7,
+                 4,
+                 6,
+                 5
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added61",
+             "image": "TSHIRT61.jpg"
+         }
+     },
+     {
+         "pk": 250,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp89320156",
+             "name": "Classic Cotton Tee",
+             "description": "Elevate your casual wardrobe with our classic cotton tee. Crafted from premium materials, this tee offers both comfort and style. Its timeless design and relaxed fit make it perfect for everyday wear. Pair it with your favorite jeans for a laid-back yet polished look.",
+             "price": 24.5,
+             "category": [
+                 7,
+                 5,
+                 4,
+                 6
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added62",
+             "image": "TSHIRT62.jpg"
+         }
+     },
+     {
+         "pk": 251,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp68479012",
+             "name": "Stylish Oversized T-Shirt",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 41.0,
+             "category": [
+                 7
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added63",
+             "image": "TSHIRT63.jpg"
+         }
+     },
+     {
+         "pk": 252,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp31497862",
+             "name": "Basic Crewneck Shirt",
+             "description": "Elevate your casual wardrobe with our classic cotton tee. Crafted from premium materials, this tee offers both comfort and style. Its timeless design and relaxed fit make it perfect for everyday wear. Pair it with your favorite jeans for a laid-back yet polished look.",
+             "price": 113.0,
+             "category": [
+                 7
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added64",
+             "image": "TSHIRT64.jpg"
+         }
+     },
+     {
+         "pk": 253,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp19485760",
+             "name": "Stylish Oversized T-Shirt",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 131.0,
+             "category": [
+                 7,
+                 5
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added65",
+             "image": "TSHIRT65.jpg"
+         }
+     },
+     {
+         "pk": 254,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp38407159",
+             "name": "Everyday Jersey Tee",
+             "description": "Stay cool and comfortable all day long in our athletic performance tee. Engineered with moisture-wicking technology, this tee keeps you dry and focused during even the most intense workouts. Its lightweight fabric and breathable design make it the perfect choice for hitting the gym or hitting the trails.",
+             "price": 66.0,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added66",
+             "image": "TSHIRT66.jpg"
+         }
+     },
+     {
+         "pk": 255,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp32471560",
+             "name": "Vintage Washed Shirt",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 142.0,
+             "category": [
+                 7,
+                 4
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added67",
+             "image": "TSHIRT67.jpg"
+         }
+     },
+     {
+         "pk": 256,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp27056439",
+             "name": "Essential V-Neck Top",
+             "description": "Elevate your casual wardrobe with our classic cotton tee. Crafted from premium materials, this tee offers both comfort and style. Its timeless design and relaxed fit make it perfect for everyday wear. Pair it with your favorite jeans for a laid-back yet polished look.",
+             "price": 135.0,
+             "category": [
+                 7,
+                 6,
+                 4
+             ],
+             "rating": 1,
+             "image_url": "url_to_be_added68",
+             "image": "TSHIRT68.jpg"
+         }
+     },
+     {
+         "pk": 257,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp29650831",
+             "name": "Relaxed Pocket Tee",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 113.0,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added69",
+             "image": "TSHIRT69.jpg"
+         }
+     },
+     {
+         "pk": 258,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp70385629",
+             "name": "Essential V-Neck Top",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 45.0,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added70",
+             "image": "TSHIRT70.jpg"
+         }
+     },
+     {
+         "pk": 259,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp12603857",
+             "name": "Athletic Performance Tee",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 105.0,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added71",
+             "image": "TSHIRT71.jpg"
+         }
+     },
+     {
+         "pk": 260,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp93810756",
+             "name": "Everyday Jersey Tee",
+             "description": "Embrace laid-back luxury with our vintage washed shirt. Made from ultra-soft fabric with a gently worn-in feel, this tee exudes effortless cool. Its relaxed fit and understated detailing make it ideal for lazy weekends and casual outings. Pair it with joggers for a cozy night in or with chinos for a relaxed day out.",
+             "price": 50.5,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added72",
+             "image": "TSHIRT72.jpg"
+         }
+     },
+     {
+         "pk": 261,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp40859713",
+             "name": "Athletic Performance Tee",
+             "description": "Stay cool and comfortable all day long in our athletic performance tee. Engineered with moisture-wicking technology, this tee keeps you dry and focused during even the most intense workouts. Its lightweight fabric and breathable design make it the perfect choice for hitting the gym or hitting the trails.",
+             "price": 106.5,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added73",
+             "image": "TSHIRT73.jpg"
+         }
+     },
+     {
+         "pk": 262,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp46097523",
+             "name": "Everyday Jersey Tee",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 93.5,
+             "category": [
+                 7,
+                 6,
+                 4,
+                 5
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added74",
+             "image": "TSHIRT74.jpg"
+         }
+     },
+     {
+         "pk": 263,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp17605298",
+             "name": "Relaxed Pocket Tee",
+             "description": "Embrace laid-back luxury with our vintage washed shirt. Made from ultra-soft fabric with a gently worn-in feel, this tee exudes effortless cool. Its relaxed fit and understated detailing make it ideal for lazy weekends and casual outings. Pair it with joggers for a cozy night in or with chinos for a relaxed day out.",
+             "price": 74.5,
+             "category": [
+                 7
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added75",
+             "image": "TSHIRT75.jpg"
+         }
+     },
+     {
+         "pk": 264,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp87629413",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 97.5,
+             "category": [
+                 7,
+                 5,
+                 6,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added76",
+             "image": "TSHIRT76.jpg"
+         }
+     },
+     {
+         "pk": 265,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp12745860",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 143.0,
+             "category": [
+                 7,
+                 4,
+                 6
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added77",
+             "image": "TSHIRT77.jpg"
+         }
+     },
+     {
+         "pk": 266,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp26897541",
+             "name": "Essential V-Neck Top",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 129.0,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added78",
+             "image": "TSHIRT78.jpg"
+         }
+     },
+     {
+         "pk": 267,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp12540693",
+             "name": "Comfort Fit T-Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 50.5,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added79",
+             "image": "TSHIRT79.jpg"
+         }
+     },
+     {
+         "pk": 268,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp96874523",
+             "name": "Relaxed Pocket Tee",
+             "description": "Stay cool and comfortable all day long in our athletic performance tee. Engineered with moisture-wicking technology, this tee keeps you dry and focused during even the most intense workouts. Its lightweight fabric and breathable design make it the perfect choice for hitting the gym or hitting the trails.",
+             "price": 78.5,
+             "category": [
+                 7,
+                 5,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added80",
+             "image": "TSHIRT80.jpg"
+         }
+     },
+     {
+         "pk": 269,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp96452038",
+             "name": "Vintage Washed Shirt",
+             "description": "Elevate your casual wardrobe with our classic cotton tee. Crafted from premium materials, this tee offers both comfort and style. Its timeless design and relaxed fit make it perfect for everyday wear. Pair it with your favorite jeans for a laid-back yet polished look.",
+             "price": 104.0,
+             "category": [
+                 7
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added81",
+             "image": "TSHIRT81.jpg"
+         }
+     },
+     {
+         "pk": 270,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp29087346",
+             "name": "Stylish Oversized T-Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 38.5,
+             "category": [
+                 7,
+                 4
+             ],
+             "rating": 2,
+             "image_url": "url_to_be_added82",
+             "image": "TSHIRT82.jpg"
+         }
+     },
+     {
+         "pk": 271,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp41352807",
+             "name": "Vintage Washed Shirt",
+             "description": "Elevate your street style with our stylish oversized t-shirt. Featuring an exaggerated silhouette and bold branding, this tee adds instant edge to any look. Its loose fit and soft fabric ensure all-day comfort, while its statement-making design ensures you'll turn heads wherever you go.",
+             "price": 110.5,
+             "category": [
+                 7,
+                 4,
+                 5,
+                 6
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added83",
+             "image": "TSHIRT83.jpg"
+         }
+     },
+     {
+         "pk": 272,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp15782903",
+             "name": "Essential V-Neck Top",
+             "description": "Stay cool and comfortable all day long in our athletic performance tee. Engineered with moisture-wicking technology, this tee keeps you dry and focused during even the most intense workouts. Its lightweight fabric and breathable design make it the perfect choice for hitting the gym or hitting the trails.",
+             "price": 139.0,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added84",
+             "image": "TSHIRT84.jpg"
+         }
+     },
+     {
+         "pk": 273,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp67245983",
+             "name": "Stylish Oversized T-Shirt",
+             "description": "Experience ultimate versatility with our essential v-neck top. Whether you're layering it under a blazer for a polished office look or pairing it with shorts for a casual weekend vibe, this tee has you covered. Its flattering neckline and soft fabric make it a wardrobe staple you'll reach for again and again.",
+             "price": 48.5,
+             "category": [
+                 7,
+                 5
+             ],
+             "rating": 1,
+             "image_url": "url_to_be_added85",
+             "image": "TSHIRT85.jpg"
+         }
+     },
+     {
+         "pk": 274,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp25416780",
+             "name": "Vintage Washed Shirt",
+             "description": "Embrace laid-back luxury with our vintage washed shirt. Made from ultra-soft fabric with a gently worn-in feel, this tee exudes effortless cool. Its relaxed fit and understated detailing make it ideal for lazy weekends and casual outings. Pair it with joggers for a cozy night in or with chinos for a relaxed day out.",
+             "price": 44.0,
+             "category": [
+                 7,
+                 4,
+                 5,
+                 6
+             ],
+             "rating": 3,
+             "image_url": "url_to_be_added86",
+             "image": "TSHIRT86.jpg"
+         }
+     },
+     {
+         "pk": 275,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp27680951",
+             "name": "Casual Graphic Tee",
+             "description": "Make a statement with our graphic tee featuring bold, eye-catching prints. Designed for those who dare to stand out, this tee adds a pop of personality to any outfit. Its soft fabric and modern silhouette ensure all-day comfort, while its vibrant colors ensure you'll never blend into the crowd.",
+             "price": 120.5,
+             "category": [
+                 7,
+                 5,
+                 4,
+                 6
+             ],
+             "rating": 5,
+             "image_url": "url_to_be_added87",
+             "image": "TSHIRT87.jpg"
+         }
+     },
+     {
+         "pk": 276,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp09548632",
+             "name": "Casual Graphic Tee",
+             "description": "Embrace laid-back luxury with our vintage washed shirt. Made from ultra-soft fabric with a gently worn-in feel, this tee exudes effortless cool. Its relaxed fit and understated detailing make it ideal for lazy weekends and casual outings. Pair it with joggers for a cozy night in or with chinos for a relaxed day out.",
+             "price": 113.5,
+             "category": [
+                 7,
+                 5,
+                 4,
+                 6
+             ],
+             "rating": 1,
+             "image_url": "url_to_be_added88",
+             "image": "TSHIRT88.jpg"
+         }
+     },
+     {
+         "pk": 277,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp13467208",
+             "name": "Essential V-Neck Top",
+             "description": "Keep it simple yet stylish with our basic crewneck shirt. With its clean lines and classic silhouette, this tee is a wardrobe essential. Its soft fabric and versatile design make it easy to dress up or down, while its timeless appeal ensures it will never go out of style.",
+             "price": 45.0,
+             "category": [
+                 7
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added89",
+             "image": "TSHIRT89.jpg"
+         }
+     },
+     {
+         "pk": 278,
+         "model": "products.product",
+         "fields": {
+             "sku": "pp61237480",
+             "name": "Athletic Performance Tee",
+             "description": "Stay cool and comfortable all day long in our athletic performance tee. Engineered with moisture-wicking technology, this tee keeps you dry and focused during even the most intense workouts. Its lightweight fabric and breathable design make it the perfect choice for hitting the gym or hitting the trails.",
+             "price": 39.5,
+             "category": [
+                 7,
+                 4
+             ],
+             "rating": 4,
+             "image_url": "url_to_be_added90",
+             "image": "TSHIRT90.jpg"
+         }
+     }
  ]

@@ -14,7 +14,7 @@ class ProductAdmin(admin.ModelAdmin):
     ordering = ('sku',)
 
     def get_categories(self, obj):
-        return ", ".join([category.name for category in obj.categories.all()])
+        return ", ".join([category.name for category in obj.category.all()])
 
     get_categories.short_description = 'Categories'
 
