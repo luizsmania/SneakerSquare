@@ -10,7 +10,6 @@ body {
     font-family: 'Lato';
 }
 
-/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -408,3 +407,90 @@ input[name='q']::placeholder {
     padding:16px 0
 }
 
+/* Navbar */
+.navbar {
+    background-color: #000; /* Set navbar background to black */
+    font-family: 'Protest Revolution';
+}
+
+h2.logo-font.text-black {
+    font-family: 'Protest Revolution';
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Top Navigation */
+#topnav {
+    background-color: #000; /* Set topnav background to black */
+    color: #000; /* Set text color to white */
+}
+
+#topnav .nav-link {
+    color: black !important; /* Set text color of links to white */
+}
+
+#topnav .dropdown-menu {
+    background-color: #000; /* Set dropdown background to black */
+}
+
+#topnav .dropdown-item {
+    color: #fff !important; /* Set dropdown item text color to white */
+}
+
+#topnav .dropdown-item:hover,
+#topnav .dropdown-item:active,
+#topnav .dropdown-item:focus {
+    background-color: #222 !important; /* Darken dropdown item background on hover */
+    color: #fff !important;
+}
+
+/* Main Navigation Links */
+#main-nav .nav-link {
+    color: #fff !important; /* Set text color of main navigation links to white */
+}
+
+/* My Account Dropdown */
+#user-options .dropdown-menu {
+    background-color: #000; /* Set dropdown background to black */
+    color: #fff; /* Set text color to white */
+}
+
+#user-options .dropdown-item {
+    color: #fff !important; /* Set dropdown item text color to white */
+}
+
+/* Shopping Bag Total */
+#shopping-bag-total .nav-link {
+    color: #fff !important; /* Set text color of shopping bag total to white */
+}
+
+/* Delivery Banner */
+#delivery-banner {
+    background-color: #000; /* Set banner background to black */
+    color: #fff; /* Set text color to white */
+    border-top: 1px solid #fff; /* Add white thin border to the top */
+    border-bottom: 1px solid #fff; /* Add white thin border to the bottom */
+}
+
+/* Adjust text color for better contrast */
+#delivery-banner h4 {
+    color: #fff; /* Set text color to white */
+}
+
+/* Mobile Top Header */
+@media (max-width: 991.98px) {
+    .mobile-logo {
+        color: #fff !important; /* Set text color of mobile logo to white */
+    }
+}
+
+.mobile-font {
+    color: #fff !important;
+    font-family: 'Protest Revolution';
+}
+
+.product-name-p {
+    font-family: 'Protest Revolution';
+}
