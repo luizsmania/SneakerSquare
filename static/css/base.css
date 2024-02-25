@@ -291,3 +291,120 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 }
+
+.privacy {
+    background:#fff;
+    color:#000;
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size:16px;
+}
+
+.privacy header {
+    margin-top: 100px;
+}
+
+.privacy h1{
+    font-size:40px;
+    line-height:60px
+}
+.privacy h1,h2{
+    font-weight:700
+}
+.privacy h2{
+    font-size:32px;
+    line-height:48px
+}
+.privacy h3{
+    font-size:24px;
+    line-height:36px
+}
+.privacy h3,h4{
+    font-weight:700
+}
+.privacy h4{
+    font-size:20px;
+    line-height:30px
+}
+.privacy h5{
+    font-size:16px
+}
+.privacy h5,h6{
+    line-height:24px;
+    font-weight:700
+}
+.privacy h6{
+    font-size:cacl(16px)
+}
+.privacy a{
+    text-decoration:none;
+    cursor:pointer;
+    color:#000
+}
+.privacy a:hover,.privacy a[rel~=nofollow]{
+    text-decoration:underline
+}
+.privacy a[rel~=nofollow]{
+    color:#0452a5
+}
+.privacy a[rel~=nofollow]:hover{
+    text-decoration:none
+}
+.privacy .visible{
+    display:block
+}
+.privacy .hidden{
+    display:none
+}
+.privacy .page{
+    width:100%
+}
+.privacy .container{
+    position:relative;
+    width:90%;
+    max-width:1024px;
+    margin:0 auto
+}
+.privacy .header{
+    color:#000;
+    padding:16px 0
+}
+.privacy .header .title{
+    font-size:24px;
+    line-height:24px;
+    font-weight:700;
+    margin:0
+}
+.privacy .translations-list-container{
+    color:#000;
+    padding-bottom:8px;
+    margin:0 0 16px
+}
+.privacy .translations-list-container .translations-list{
+    margin:0;
+    padding:0;
+    list-style:none
+}
+.privacy .translations-list-container .translations-list .translations-list-item{
+    display:inline-block;
+    padding:0;
+    margin:0 8px 8px 0;
+    color:#fff
+}
+.privacy .translations-list-container .translations-list .translations-list-item a{
+    display:inline-block;
+    padding:4px 8px
+}
+.privacy .translations-list-container .translations-list .translations-list-item a.active{
+    color:#fff;
+    background:#334055
+}
+.privacy .translations-content-container{
+    padding-top:8px;
+    border-top:1px solid #eee
+}
+.privacy .footer{
+    border-top:1px solid #eee;
+    margin:32px 0 0;
+    padding:16px 0
+}
+
