@@ -6,6 +6,8 @@
 {% block head_title %}{% trans "Signup" %}{% endblock %}
 {% block extra_head %}
 {% endblock %}
+{% block banner %}
+{% endblock %}
 
 {% block content %}
 <head>
@@ -44,4 +46,7 @@
 </section>
 
 <script src="{% static 'customtemplates/js/jquery.min.js' %}"></script>
+{% endblock %}
+{% block footer %}
+<!-- Blocking rendering footer for aesthetic purposes -->
 {% endblock %}
