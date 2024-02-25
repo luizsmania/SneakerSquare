@@ -8,7 +8,7 @@ colorama==0.4.6
 crispy-bootstrap4==2023.1
 cryptography==41.0.7
 dj-database-url==0.5.0
-Django==4.2.8
+Django==4.2
 django-allauth==0.59.0
 django-bootstrap-v5==1.0.11
 django-crispy-forms==2.1
@@ -30,5 +30,5 @@ s3transfer==0.10.0
 sqlparse==0.4.4
 stripe==8.3.0
 tzdata==2023.4
-urllib3==2.0.7
+urllib3==1.26.0
 Pillow==7.0.0
