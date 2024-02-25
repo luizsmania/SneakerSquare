@@ -52,11 +52,31 @@
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
-                            {% with product.has_sizes as s %}
-                            {% if s %}
+                            {% if product.has_shoe_sizes %}
                                 <div class="col-12">
                                     <p><strong>Size:</strong></p>
-                                    <select class="form-control rounded-0 w-50" name="product_size" id='id_product_size'>
+                                    <select class="form-control rounded-0 w-50" name="product_size" id="id_product_size">
+                                        <option value="2.5">2.5(UK)</option>
+                                        <option value="3.0">3.0(UK)</option>
+                                        <option value="3.5">3.5(UK)</option>
+                                        <option value="4.0">4.0(UK)</option>
+                                        <option value="4.5">4.5(UK)</option>
+                                        <option value="5.0">5.0(UK)</option>
+                                        <option value="5.5">5.5(UK)</option>
+                                        <option value="6.0">6.0(UK)</option>
+                                        <option value="6.5">6.5(UK)</option>
+                                        <option value="7.0">7.0(UK)</option>
+                                        <option value="7.5">7.5(UK)</option>
+                                        <option value="8.0">8.0(UK)</option>
+                                        <option value="8.5">8.5(UK)</option>
+                                        <option value="9.0">9.0(UK)</option>
+                                        <option value="9.5">9.5(UK)</option>
+                                    </select>
+                            {% endif %}
+                            {% if product.has_sizes %}
+                                <div class="col-12">
+                                    <p><strong>Size:</strong></p>
+                                    <select class="form-control rounded-0 w-50" name="product_size" id="id_product_size">
                                         <option value="xs">XS</option>
                                         <option value="s">S</option>
                                         <option value="m" selected>M</option>
@@ -102,8 +122,6 @@
                                 </a>
                                 <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
                             </div>
-                            <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                            {% endwith %}
                         </div>
                     </form>
                 </div>
