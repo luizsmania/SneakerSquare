@@ -31,3 +31,4 @@ sqlparse==0.4.4
 stripe==8.3.0
 tzdata==2023.4
 urllib3==2.0.7
+Pillow==7.0.0
