@@ -18,7 +18,9 @@ def all_products(request):
     categories = None
     sort = None
     direction = None
-
+    current_page_url = request.get_full_path()
+    request.session['previous_page'] = current_page_url
+    
     if request.GET:
         if 'sort' in request.GET:
             sortkey = request.GET['sort']
@@ -61,9 +63,11 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
+    """ A view to show individual product details """
+
     product = get_object_or_404(Product, pk=product_id)
     comments = Comment.objects.filter(product=product)
-    request.session['previous_page'] = request.path
+    request.session['previous_page'] = request.path  # Set the current page URL
 
     if request.method == 'POST':
         form = CommentForm(request.POST)
@@ -83,8 +87,6 @@ def product_detail(request, product_id):
         'form': form,
     }
     return render(request, 'products/product_detail.html', context)
-
-
 @login_required
 def add_product(request):
     """ Add a product to the store """
@@ -188,14 +190,13 @@ def add_to_wishlist(request, product_id):
     if WishlistItem.objects.filter(user=request.user, product=product).exists():
         # Product is already in wishlist, do nothing
         messages.error(request, f'Product "{product.name}" is already in your wishlist.')
-        pass
     else:
         # Add product to wishlist
         WishlistItem.objects.create(user=request.user, product=product)
         messages.success(request, f'Product "{product.name}" was added to your wishlist.')
     
     # Get the previous page URL from the session or set a default URL
-    previous_page = request.session.get('previous_page', 'home')  # Change 'home' to your default URL
+    previous_page = request.session.get('previous_page', 'products')  # Change 'products' to your default URL
     
     # Redirect back to the previous page
     return redirect(previous_page)
@@ -207,3 +208,10 @@ def wishlist_view(request):
         'wishlist_items': wishlist_items
     }
     return render(request, 'wishlist.html', context)
+
+def delete_from_wishlist(request, item_id):
+    item = get_object_or_404(WishlistItem, pk=item_id)
+    product_name = item.product.name  # Get the product name before deleting
+    item.delete()
+    messages.success(request, f'Product "{product_name}" was deleted from your wishlist.')
+    return redirect('wishlist')  # Assuming 'wishlist' is the name of your wishlist view

@@ -10,29 +10,52 @@
 {% endblock %}
 
 {% block content %}
-    <div class="bg-white py-4"> <!-- Changed container class to bg-white for white background -->
-        <div class="container"> <!-- Added container inside the white background div -->
-            <h1 class="my-4">My Wishlist</h1>
-            <div class="row">
-                {% for item in wishlist_items %}
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                        <a href="{% url 'product_detail' item.product.id %}">
-                            <img class="card-img-top" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <a href="{% url 'product_detail' item.product.id %}">{{ item.product.name }}</a>
-                            </h5>
-                            <p class="card-text">Price: ${{ item.product.price }}</p>
+<div class="bg-white py-4">
+    <div class="container">
+        <h1 class="my-4">My Wishlist</h1>
+        <ul class="list-unstyled">
+            {% for item in wishlist_items %}
+            <li class="mb-4">
+                <div class="card shadow-sm">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <a href="{% url 'product_detail' item.product.id %}">
+                                <img class="card-img-top wishlist-item-img" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                            </a>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <a href="{% url 'product_detail' item.product.id %}">{{ item.product.name }}</a>
+                                    <a href="{% url 'delete_from_wishlist' item.id %}" class="text-danger ml-2" title="Remove from Wishlist">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
+                                </h5>
+                                <p class="lead mb-0">${{ item.product.price }}</p>
+                                {% for category in item.product.category.all %}
+                                    <p class="small mt-1 mb-0">
+                                        <a class="text-muted" href="{% url 'products' %}?category={{ category.name }}">
+                                            <i class="fas fa-tag mr-1"></i>{{ category.friendly_name }}
+                                        </a>
+                                    </p>
+                                {% endfor %}
+                                {% if item.product.rating %}
+                                    <p class="small mt-1 mb-0">
+                                        <i class="fas fa-star mr-1"></i>{{ item.product.rating }} / 5
+                                    </p>
+                                {% else %}
+                                    <p class="small mt-1 mb-0">No Rating</p>
+                                {% endif %}
+                                <p class="mt-3 wishlist-item-description">{{ item.product.description }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                {% endfor %}
-                
-            </div>
-        </div>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
+</div>
 {% endblock %}
 
 {% block postloadjs %}
