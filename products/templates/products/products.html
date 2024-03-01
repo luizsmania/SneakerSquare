@@ -103,7 +103,7 @@
                                         {% if product.has_shoe_sizes %}
                                             <div class="dropdown position-static">
                                                 <button class="btn btn-success dropdown-toggle" type="button" id="sizeDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <i class="fas fa-shopping-bag"></i> Add to Bag
+                                                    Add to Bag <i class="fas fa-shopping-bag ml-1"></i> 
                                                 </button>
                                                 <div class="dropdown-menu dropdown-menu-bag dropdown-menu-end dropdown-menu-bottom" aria-labelledby="sizeDropdown">
                                                     {% for size in shoe_sizes %}
@@ -113,8 +113,8 @@
                                             </div>
                                         {% elif product.has_sizes %}
                                             <div class="dropdown">
-                                                <button class="btn btn-sm btn-success dropdown-toggle" type="button" id="sizeDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    <i class="fas fa-shopping-bag"></i> Add to Bag
+                                                <button class="btn btn-success dropdown-toggle" type="button" id="sizeDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Add to Bag <i class="fas fa-shopping-bag ml-1"></i> 
                                                 </button>
                                                 <div class="dropdown-menu dropdown-menu-bag" aria-labelledby="sizeDropdown">
                                                     {% for size in clothes_sizes %}
