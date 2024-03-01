@@ -16,6 +16,11 @@ body {
     width: 1.5rem;
 }
 
+.home-banner {
+    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
 .logo-font {
     text-transform: uppercase;
 }
