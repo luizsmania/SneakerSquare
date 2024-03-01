@@ -11,6 +11,8 @@ def view_bag(request):
 
     return render(request, 'bag/bag.html')
 
+from django.http import HttpResponseRedirect
+
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
@@ -47,6 +49,7 @@ def add_to_bag(request, item_id):
     request.session['bag'] = bag
     # Redirect back to the referring page
     return HttpResponseRedirect(request.META.get('HTTP_REFERER', reverse('home')))
+
 
 
 def adjust_bag(request, item_id):
@@ -105,3 +108,12 @@ def remove_from_bag(request, item_id):
     except Exception as e:
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
+
+def clear_bag(request):
+    """Clear the items from the shopping bag"""
+
+    request.session['bag'] = {}
+    messages.success(request, 'The bag was cleared successfully.')
+    
+    # Redirect back to the referring page
+    return HttpResponseRedirect(request.META.get('HTTP_REFERER', reverse('home')))
