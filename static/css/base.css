@@ -534,3 +534,16 @@ input.form-control.border.border-black.rounded-0, h1.display-4.logo-font.text-bl
     margin-right: 5%;
     margin-top: 10vw;
 }
+
+.product-card img {
+    height: 100%; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+.product-content-container {
+    height: 100%;
+}
+
+.product-content-container img {
+    max-height: 100%; /* Adjust as needed */
+    width: auto;
+}

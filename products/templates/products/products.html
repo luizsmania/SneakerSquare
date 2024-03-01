@@ -55,30 +55,33 @@
                 <div class="row">
                     {% for product in products %}
                     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <div class="card h-100 border-0 position-relative">
-                            <!-- Product image -->
-                            {% if product.image %}
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
-                                </a>
-                            {% else %}
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                                </a>
-                            {% endif %}
-                            <div class="card-body pb-0">
-                                <p class="mb-0">{{ product.name }}</p>
+                        <div class="card h-100 border-0 position-relative product-card">
+                            <div class="product-content-container d-flex flex-column justify-content-between h-100">
+                                <!-- Product image -->
+                            <div class="img-container">
+                                {% if product.image %}
+                                    <a href="{% url 'product_detail' product.id %}">
+                                        <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                    </a>
+                                {% else %}
+                                    <a href="{% url 'product_detail' product.id %}">
+                                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    </a>
+                                {% endif %}
+                            </div>                      
                             </div>
+                            <div class="card-body">
+                                <a href="{% url 'product_detail' product.id %}" class="card-link font-weight-bold" style="font-size: 1.2rem; color: #555555;"><p class="mb-0">{{ product.name }}</p></a>
+                            </div>  
                             <div class="card-footer bg-white pt-0 border-0 text-left">
                                 <div class="row">
                                     <div class="col">
-                                        <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                                        <p class="lead mb-0 text-left">${{ product.price }}</p>
                                         <div class="row">
                                             {% for category in product.category.all %}
                                                 <div class="col-auto">
                                                     <a class="category-link text-muted small" href="{% url 'products' %}?category={{ category.name }}">
-                                                        <i class="fas fa-tag mr-1"></i>{{ category.friendly_name }}
-                                                    </a>
+                                                        <i class="fas fa-tag mr-1"></i>{{ category.friendly_name }}</a>
                                                 </div>
                                             {% endfor %}
                                         </div>
@@ -90,7 +93,7 @@
                                         {% else %}
                                         <div class="d-flex align-items-center mt-2">
                                             <small class="text-muted">No Rating</small>
-                                            <a href="{% url 'add_to_wishlist' product.id %}" class="ml-2 text-danger small"><i class="fas fa-heart"></i>  Add to Wishlist/a>
+                                            <a href="{% url 'add_to_wishlist' product.id %}" class="ml-2 text-danger small"><i class="fas fa-heart"></i>  Add to Wishlist</a>
                                         </div>
                                         {% endif %}
                                         {% if request.user.is_superuser %}
