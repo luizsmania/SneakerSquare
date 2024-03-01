@@ -35,6 +35,10 @@ body {
     min-width: 260px;
 }
 
+.btn {
+    padding: .475rem .95rem !important;
+}
+
 .btn-black {
     background: black;
     color: white;
@@ -546,4 +550,8 @@ input.form-control.border.border-black.rounded-0, h1.display-4.logo-font.text-bl
 .product-content-container img {
     max-height: 100%; /* Adjust as needed */
     width: auto;
+}
+
+.products-tags {
+    padding-right: 1px !important;
 }
