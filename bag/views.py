@@ -14,7 +14,7 @@ def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
     product = get_object_or_404(Product, pk=item_id)
-    quantity = int(request.POST.get('quantity'))
+    quantity = 1  # Default quantity is 1
     redirect_url = request.POST.get('redirect_url', reverse('home'))  # Provide a default URL
     size = None
     if 'product_size' in request.POST:

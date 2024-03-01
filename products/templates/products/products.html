@@ -85,6 +85,9 @@
                                         {% if product.rating %}
                                         <div class="d-flex align-items-center mt-2">
                                             <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                                            <a href="{% url 'add_to_bag' product.id %}?quantity=1" class="ml-2 text-success small">
+                                                <i class="fas fa-shopping-bag"></i> Add to Bag
+                                            </a>
                                             <a href="{% url 'add_to_wishlist' product.id %}" class="ml-2 text-danger small"><i class="fas fa-heart"></i>  Add to Wishlist</a>
                                         </div>
                                         {% else %}
