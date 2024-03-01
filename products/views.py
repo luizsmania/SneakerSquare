@@ -3,6 +3,8 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.utils.safestring import mark_safe
+
 
 from .models import Product, Category, Comment, WishlistItem
 from .forms import ProductForm, CommentForm
@@ -189,11 +191,15 @@ def add_to_wishlist(request, product_id):
     # Check if the product is already in the user's wishlist
     if WishlistItem.objects.filter(user=request.user, product=product).exists():
         # Product is already in wishlist, do nothing
-        messages.error(request, f'Product "{product.name}" is already in your wishlist.')
+        wishlist_url = '/products/wishlist/'  # Specify the URL of the wishlist page
+        message = f'Product "{product.name}" is already in your <a href="{wishlist_url}">wishlist</a>.'
+        messages.error(request, mark_safe(message))
     else:
         # Add product to wishlist
         WishlistItem.objects.create(user=request.user, product=product)
-        messages.success(request, f'Product "{product.name}" was added to your wishlist.')
+        wishlist_url = '/products/wishlist/'  # Specify the URL of the wishlist page
+        message = f'Product "{product.name}" was added to your <a href="{wishlist_url}">wishlist</a>.'
+        messages.success(request, mark_safe(message))
     
     # Get the previous page URL from the session or set a default URL
     previous_page = request.session.get('previous_page', 'products')  # Change 'products' to your default URL
@@ -212,6 +218,17 @@ def wishlist_view(request):
 def delete_from_wishlist(request, item_id):
     item = get_object_or_404(WishlistItem, pk=item_id)
     product_name = item.product.name  # Get the product name before deleting
+    
+    # Specify the URL of the wishlist page
+    wishlist_url = '/products/wishlist/'
+    
+    # Create the success message with the correct product name and wishlist URL
+    message = f'Product "{product_name}" was deleted from your <a href="{wishlist_url}">wishlist</a>.'
+    
+    # Add the success message
+    messages.success(request, mark_safe(message))
+    
+    # Delete the item from the wishlist
     item.delete()
-    messages.success(request, f'Product "{product_name}" was deleted from your wishlist.')
+
     return redirect('wishlist')  # Assuming 'wishlist' is the name of your wishlist view
