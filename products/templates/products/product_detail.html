@@ -128,6 +128,40 @@
             </div>
         </div>
     </div>
+    <div class="comment-section">
+        <!-- Existing comments -->
+        <div class="existing-comments">
+            <h4>Existing Comments</h4>
+            <ul class="list-group">
+                {% for comment in comments %}
+                <li class="list-group-item">
+                    <div class="comment-text">
+                        <strong>{{ comment.user.username }}:</strong> {{ comment.text }}
+                    </div>
+                    <div class="comment-details">
+                        <small class="text-muted">{{ comment.created_at }}</small>
+                        {% if request.user == comment.user %}
+                        <form method="post" action="{% url 'delete_comment' comment.id %}" class="delete-comment-form">
+                            {% csrf_token %}
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                        {% endif %}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    
+        <!-- Comment form -->
+        <div class="add-comment">
+            <h4>Add a Comment</h4>
+            <form method="post" action="{% url 'add_comment' product.id %}" class="comment-form">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
 {% endblock %}
 
 {% block postloadjs %}

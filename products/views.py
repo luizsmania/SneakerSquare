@@ -4,8 +4,8 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category
-from .forms import ProductForm
+from .models import Product, Category, Comment
+from .forms import ProductForm, CommentForm
 
 # Create your views here.
 
@@ -60,14 +60,26 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """ A view to show individual product details """
-
     product = get_object_or_404(Product, pk=product_id)
+    comments = Comment.objects.filter(product=product)
+
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            new_comment = form.save(commit=False)
+            new_comment.user = request.user
+            new_comment.product = product
+            new_comment.save()
+            messages.success(request, 'Your comment has been added successfully.')
+            return redirect('product_detail', product_id=product_id)
+    else:
+        form = CommentForm()
 
     context = {
         'product': product,
+        'comments': comments,
+        'form': form,
     }
-
     return render(request, 'products/product_detail.html', context)
 
 
@@ -137,3 +149,31 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+@login_required
+def add_comment(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            comment = form.save(commit=False)
+            comment.user = request.user
+            comment.product = product
+            comment.save()
+            messages.success(request, 'Your comment has been added successfully.')
+            return redirect('product_detail', product_id=product_id)
+        else:
+            messages.error(request, 'Failed to add comment. Please check the form.')
+    else:
+        form = CommentForm()
+    return render(request, 'add_comment.html', {'form': form})
+
+@login_required
+def delete_comment(request, comment_id):
+    comment = get_object_or_404(Comment, pk=comment_id)
+    if request.user == comment.user:
+        comment.delete()
+        messages.success(request, 'Comment deleted successfully.')
+    else:
+        messages.error(request, 'You are not authorized to delete this comment.')
+    return redirect('product_detail', product_id=comment.product.id)
