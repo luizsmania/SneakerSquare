@@ -3,9 +3,9 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .models import UserProfile
 from .forms import UserProfileForm
-
 from checkout.models import Order
-
+from products.models import Comment  # Import the Comment model
+from collections import defaultdict
 
 @login_required
 def profile(request):
@@ -21,17 +21,26 @@ def profile(request):
             messages.error(request, 'Update failed. Please ensure the form is valid.')
     else:
         form = UserProfileForm(instance=profile)
+    
+    # Get all comments by the current user
+    user_comments = Comment.objects.filter(user=request.user)
+    
+    # Count the number of comments for each product
+    product_comment_count = defaultdict(int)
+    for comment in user_comments:
+        product_comment_count[comment.product] += 1
+
     orders = profile.orders.all()
 
     template = 'profiles/profile.html'
     context = {
         'form': form,
         'orders': orders,
-        'on_profile_page': True
+        'on_profile_page': True,
+        'product_comment_count': dict(product_comment_count),  # Convert to regular dictionary
     }
 
     return render(request, template, context)
-
 
 def order_history(request, order_number):
     order = get_object_or_404(Order, order_number=order_number)

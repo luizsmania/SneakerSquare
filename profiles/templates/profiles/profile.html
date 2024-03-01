@@ -104,6 +104,26 @@
             </div>
             {% endif %}
         </div>
+            <!-- Products user has commented on -->
+            <div class="row">
+                <div class="col">
+                    <hr>
+                    <h2 class="logo-font mb-4">Products You've Commented On:</h2>
+                    <ul class="list-group">
+                        {% for product, comment_count in product_comment_count.items %}
+                        <li class="list-group-item">
+                            <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-thumbnail" width="50" height="50">
+                            <a href="{% url 'product_detail' product.id %}">{{ product.name }}</a>
+                            {% if comment_count > 1 %}
+                            | <span class="text-muted">{{ comment_count }} comments</span>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 {% endblock %}
