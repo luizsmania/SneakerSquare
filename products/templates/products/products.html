@@ -85,9 +85,6 @@
                                         {% if product.rating %}
                                         <div class="d-flex align-items-center mt-2">
                                             <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
-                                            <a href="{% url 'add_to_bag' product.id %}?quantity=1" class="ml-2 text-success small">
-                                                <i class="fas fa-shopping-bag"></i> Add to Bag
-                                            </a>
                                             <a href="{% url 'add_to_wishlist' product.id %}" class="ml-2 text-danger small"><i class="fas fa-heart"></i>  Add to Wishlist</a>
                                         </div>
                                         {% else %}
@@ -101,6 +98,34 @@
                                                 <a href="{% url 'edit_product' product.id %}">Edit</a> |
                                                 <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                                             </small>
+                                        {% endif %}
+                                        <!-- Add to bag logic -->
+                                        {% if product.has_shoe_sizes %}
+                                            <div class="dropdown position-static">
+                                                <button class="btn btn-success dropdown-toggle" type="button" id="sizeDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="fas fa-shopping-bag"></i> Add to Bag
+                                                </button>
+                                                <div class="dropdown-menu dropdown-menu-bag dropdown-menu-end dropdown-menu-bottom" aria-labelledby="sizeDropdown">
+                                                    {% for size in shoe_sizes %}
+                                                        <a class="dropdown-item dropdown-item-bag" href="{% url 'add_to_bag' product.id %}?product_size={{ size }}&quantity=1">{{ size }}(UK)</a>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        {% elif product.has_sizes %}
+                                            <div class="dropdown">
+                                                <button class="btn btn-sm btn-success dropdown-toggle" type="button" id="sizeDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <i class="fas fa-shopping-bag"></i> Add to Bag
+                                                </button>
+                                                <div class="dropdown-menu dropdown-menu-bag" aria-labelledby="sizeDropdown">
+                                                    {% for size in clothes_sizes %}
+                                                        <a class="dropdown-item dropdown-item-bag" href="{% url 'add_to_bag' product.id %}?product_size={{ size }}&quantity=1">{{ size }}</a>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        {% else %}
+                                            <a href="{% url 'add_to_bag' product.id %}?quantity=1" class="ml-2 text-success small">
+                                                <i class="fas fa-shopping-bag"></i> Add to Bag
+                                            </a>
                                         {% endif %}
                                     </div>
                                 </div>

@@ -22,6 +22,8 @@ def all_products(request):
     direction = None
     current_page_url = request.get_full_path()
     request.session['previous_page'] = current_page_url
+    shoe_sizes = ['2.5', '3', '3.5', '4', '4.5', '5', '5.5', '6', '6.5', '7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12', '13', '14']
+    clothes_sizes = ['XS', 'S', 'M', 'L', 'XL']
     
     if request.GET:
         if 'sort' in request.GET:
@@ -59,6 +61,8 @@ def all_products(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        'clothes_sizes': clothes_sizes,
+        'shoe_sizes': shoe_sizes,
     }
 
     return render(request, 'products/products.html', context)

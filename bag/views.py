@@ -14,13 +14,17 @@ def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
     product = get_object_or_404(Product, pk=item_id)
-    quantity = 1  # Default quantity is 1
+    quantity = int(request.GET.get('quantity', 1))  # Default quantity is 1
+    product_size = request.GET.get('product_size')
     redirect_url = request.POST.get('redirect_url', reverse('home'))  # Provide a default URL
-    size = None
-    if 'product_size' in request.POST:
-        size = request.POST['product_size']
+    
+    size = None  # Initialize size to None
+    
+    if product_size:
+        size = product_size
+    
     bag = request.session.get('bag', {})
-
+    
     if size:
         if item_id in list(bag.keys()):
             if size in bag[item_id]['items_by_size'].keys():
@@ -42,6 +46,7 @@ def add_to_bag(request, item_id):
 
     request.session['bag'] = bag
     return redirect(redirect_url)
+
 
 def adjust_bag(request, item_id):
     """Adjust the quantity of the specified product to the specified amount"""
