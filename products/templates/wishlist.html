@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="bg-white py-4"> <!-- Changed container class to bg-white for white background -->
+        <div class="container"> <!-- Added container inside the white background div -->
+            <h1 class="my-4">My Wishlist</h1>
+            <div class="row">
+                {% for item in wishlist_items %}
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <a href="{% url 'product_detail' item.product.id %}">
+                            <img class="card-img-top" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="{% url 'product_detail' item.product.id %}">{{ item.product.name }}</a>
+                            </h5>
+                            <p class="card-text">Price: ${{ item.product.price }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+                
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    {% include 'products/includes/quantity_input_script.html' %}
+{% endblock %}

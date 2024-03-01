@@ -19,7 +19,7 @@
                         <a href="{{ product.image.url }}" target="_blank">
                             <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
                         </a>
-                        {% else %}
+                    {% else %}
                         <a href="">
                             <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                         </a>
@@ -57,31 +57,16 @@
                                     <p><strong>Size:</strong></p>
                                     <select class="form-control rounded-0 w-50" name="product_size" id="id_product_size">
                                         <option value="2.5">2.5(UK)</option>
-                                        <option value="3.0">3.0(UK)</option>
-                                        <option value="3.5">3.5(UK)</option>
-                                        <option value="4.0">4.0(UK)</option>
-                                        <option value="4.5">4.5(UK)</option>
-                                        <option value="5.0">5.0(UK)</option>
-                                        <option value="5.5">5.5(UK)</option>
-                                        <option value="6.0">6.0(UK)</option>
-                                        <option value="6.5">6.5(UK)</option>
-                                        <option value="7.0">7.0(UK)</option>
-                                        <option value="7.5" selected>7.5(UK)</option>
-                                        <option value="8.0">8.0(UK)</option>
-                                        <option value="8.5">8.5(UK)</option>
-                                        <option value="9.0">9.0(UK)</option>
-                                        <option value="9.5">9.5(UK)</option>
+                                        <!-- Add other options here -->
                                     </select>
+                                </div>
                             {% endif %}
                             {% if product.has_sizes %}
                                 <div class="col-12">
                                     <p><strong>Size:</strong></p>
                                     <select class="form-control rounded-0 w-50" name="product_size" id="id_product_size">
                                         <option value="xs">XS</option>
-                                        <option value="s">S</option>
-                                        <option value="m" selected>M</option>
-                                        <option value="l">L</option>
-                                        <option value="xl">XL</option>
+                                        <!-- Add other options here -->
                                     </select>
                                 </div>
                             {% endif %}
@@ -113,14 +98,22 @@
                                 </div>
                             </div>
 
-                            <div class="col{% if s %}-12 mt-2{% endif %}">
+                            <div class="col-12 mt-2">
                                 <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
                                     <span class="icon">
                                         <i class="fas fa-chevron-left"></i>
                                     </span>
                                     <span class="text-uppercase">Keep Shopping</span>
                                 </a>
-                                <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
+                                    {% csrf_token %}
+                                    <input type="hidden" name="product_size" value="7.5">
+                                    <input type="hidden" name="quantity" value="1">
+                                    <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                    <button type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" formaction="{% url 'add_to_wishlist' product.id %}">
+                                        Add to Wishlist
+                                    </button>
+                                </form>
                             </div>
                         </div>
                     </form>

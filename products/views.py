@@ -4,8 +4,9 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
-from .models import Product, Category, Comment
+from .models import Product, Category, Comment, WishlistItem
 from .forms import ProductForm, CommentForm
+from .models import WishlistItem
 
 # Create your views here.
 
@@ -62,6 +63,7 @@ def all_products(request):
 def product_detail(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     comments = Comment.objects.filter(product=product)
+    request.session['previous_page'] = request.path
 
     if request.method == 'POST':
         form = CommentForm(request.POST)
@@ -177,3 +179,31 @@ def delete_comment(request, comment_id):
     else:
         messages.error(request, 'You are not authorized to delete this comment.')
     return redirect('product_detail', product_id=comment.product.id)
+
+@login_required
+def add_to_wishlist(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
+    
+    # Check if the product is already in the user's wishlist
+    if WishlistItem.objects.filter(user=request.user, product=product).exists():
+        # Product is already in wishlist, do nothing
+        messages.error(request, f'Product "{product.name}" is already in your wishlist.')
+        pass
+    else:
+        # Add product to wishlist
+        WishlistItem.objects.create(user=request.user, product=product)
+        messages.success(request, f'Product "{product.name}" was added to your wishlist.')
+    
+    # Get the previous page URL from the session or set a default URL
+    previous_page = request.session.get('previous_page', 'home')  # Change 'home' to your default URL
+    
+    # Redirect back to the previous page
+    return redirect(previous_page)
+
+def wishlist_view(request):
+    # Retrieve wishlist items for the current user
+    wishlist_items = WishlistItem.objects.filter(user=request.user)
+    context = {
+        'wishlist_items': wishlist_items
+    }
+    return render(request, 'wishlist.html', context)
