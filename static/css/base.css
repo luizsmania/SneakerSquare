@@ -494,3 +494,11 @@ h2.logo-font.text-black {
 input.form-control.border.border-black.rounded-0, h1.display-4.logo-font.text-black {
     font-family: 'Protest Revolution';
 }
+
+.mobile-white {
+    color: white !important;
+}
+
+.white-icon {
+    color: white; /* Set the color to white */
+}
