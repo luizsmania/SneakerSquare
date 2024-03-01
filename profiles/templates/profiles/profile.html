@@ -34,50 +34,81 @@
                     <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
                 </form>
             </div>
-            <div class="col-12 col-lg-6">
-                <p class="text-muted">Order History</p>
-                <div class="order-history table-responsive">
-                    <table class="table table-sm table-borderless">
-                        <thead>
-                            <tr>
-                                <th>Order Number</th>
-                                <th>Date</th>
-                                <th>Items</th>
-                                <th>Order Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for order in orders %}
-                                <tr>
-                                    <td>
-                                        <a href="{% url 'order_history' order.order_number %}"
-                                        title="{{ order.order_number }}">
-                                            {{ order.order_number|truncatechars:6 }}
-                                        </a>
-                                    </td>
-                                    <td>{{ order.date }}</td>
-                                    <td>
-                                        <ul class="list-unstyled">
-                                            {% for item in order.lineitems.all %}
-                                                <li class="small">
-                                                    {% if item.product.has_sizes %}
-                                                        Size {{ item.product.size|upper }}
-                                                    {% endif %}{{ item.product.name }} x{{ item.quantity }}
-                                                </li>
-                                            {% endfor %}
-                                        </ul>
-                                    </td>
-                                    <td>${{ order.grand_total }}</td>
-                                </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-{% endblock %}
+        <!--Order history table-->
+        <div class="col-12 col-lg-6">
+            <hr>
+            <h2 class="logo-font mb-4">Order History</h2>
+            <hr>
 
+            {% if orders %}
+            <div class="order-history table-responsive">
+                <table class="table table-sm table-borderless">
+                    <thead>
+                        <tr>
+                            <th>Order Number</th>
+                            <th>Date</th>
+                            <th></th>
+                            <th>Items</th>
+                            <th>Order Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!--Iterates through orders from user-->
+                        {% for order in orders %}
+                        <tr>
+                            <td class="pb-3">
+                                <!--Truncate order number-->
+                                <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}">
+                                    {{ order.order_number|truncatechars:6 }}
+                                </a>
+                            </td>
+                            <td class="pb-3">{{ order.date|date:"j F, Y" }}</td>
+                            <td class="pb-3">
+                                <!--Displays product image of first line item if it has one
+                                Otherwise, show default image-->
+                                {% with first_line_item=order.lineitems.first %}
+                                {% if first_line_item.product.image %}
+                                {# Check if the product has an image #}
+                                <img src="{{ first_line_item.product.image.url }}"
+                                    alt="{{ first_line_item.product.name }}" class="img-thumbnail-history">
+                                {% else %}
+                                <img class="img-thumbnail-history"
+                                    src="{% get_media_prefix %}default-images/no_orders.webp"
+                                    alt="{{ first_line_item.product.name }}">
+                                {% endif %}
+                                {% endwith %}
+                            </td>
+                            <td class="pb-3">
+                                <ul class="list-unstyled">
+                                    <!--Shows product name and quantity for each line item-->
+                                    {% for item in order.lineitems.all %}
+                                    <li class="">
+                                        <a href="{% url 'product_detail' item.product.id %}"
+                                            aria-label="{{ item.product.name }}" class="text-link">
+                                            {{ item.product.name }}</a> x{{ item.quantity }}
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </td>
+                            <td class="pb-3">€{{ order.grand_total }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <div class="col-12 col-lg-6">
+                <p class="text-muted">You haven't made an order yet &#128546;</p>
+                <img src="{% get_media_prefix %}default-images/no_orders.webp" class="img-fluid"
+                    alt="Sad dog, no orders">
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+<!--Country field JS logic for user profile form-->
 {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
+{{ block.super }}
+<script src="{% static 'profiles/js/countryfield.js' %}"></script>
 {% endblock %}

@@ -1,7 +1,8 @@
 import os
 import dj_database_url
 from decimal import Decimal
-
+from dotenv import load_dotenv
+load_dotenv()
 """
 Django settings for sneaker_square project.
 
@@ -33,7 +34,7 @@ if 'DEVELOPMENT' in os.environ:
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['8000-luizsmania-sneakersquar-de4q0yrsby9.ws-eu108.gitpod.io', 'sneakersquare-5c5523e490fd.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-luizsmania-sneakersquar-de4q0yrsby9.ws-eu108.gitpod.io', 'sneakersquare-5c5523e490fd.herokuapp.com', '127.0.0.1']
 
 
 # Application definition

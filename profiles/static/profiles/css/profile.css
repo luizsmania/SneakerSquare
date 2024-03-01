@@ -1,5 +1,6 @@
 .order-history {
-    max-height: 416px; /* height of profile form + submit button */
+    max-height: auto;
+    /* height of profile form + submit button */
     overflow-y: auto;
 }
 
@@ -14,8 +15,47 @@
 #id_default_country,
 #id_default_country option:not(:first-child) {
     color: #000;
+    border-color: #000;
+    border-radius: 0%;
 }
 
 #id_default_country option:first-child {
     color: #aab7c4;
+}
+
+.profile_img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid #d3d3d3;
+    transition: transform 0.4s ease-in-out;
+}
+
+.image-container-profile {
+    width: 160px;
+    height: 160px;
+}
+
+.image-container-profile.zoomed img {
+    transform: scale(2.5);
+    position: absolute;
+    z-index: 999;
+    left: 3%;
+    top: 0;
+    transform-origin: top left;
+}
+
+.img-thumbnail-history {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.text-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.text-link:hover {
+    text-decoration: none;
+    color: #0a8362;
 }
