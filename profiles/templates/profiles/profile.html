@@ -1,3 +1,5 @@
+<!-- profile.html -->
+
 {% extends "base.html" %}
 {% load static %}
 <title>Sneaker Square {% block extra_title %}| Profile{% endblock %}</title>
@@ -35,96 +37,107 @@
                     <button class="btn btn-black rounded-0 text-uppercase float-right">Update Information</button>
                 </form>
             </div>
-        <!--Order history table-->
-        <div class="col-12 col-lg-6">
-            <hr>
-            <h2 class="logo-font mb-4">Order History</h2>
-            <hr>
-
-            {% if orders %}
-            <div class="order-history table-responsive">
-                <table class="table table-sm table-borderless">
-                    <thead>
-                        <tr>
-                            <th>Order Number</th>
-                            <th>Date</th>
-                            <th></th>
-                            <th>Items</th>
-                            <th>Order Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!--Iterates through orders from user-->
-                        {% for order in orders %}
-                        <tr>
-                            <td class="pb-3">
-                                <!--Truncate order number-->
-                                <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}">
-                                    {{ order.order_number|truncatechars:6 }}
-                                </a>
-                            </td>
-                            <td class="pb-3">{{ order.date|date:"j F, Y" }}</td>
-                            <td class="pb-3">
-                                <!--Displays product image of first line item if it has one
-                                Otherwise, show default image-->
-                                {% with first_line_item=order.lineitems.first %}
-                                {% if first_line_item.product.image %}
-                                {# Check if the product has an image #}
-                                <img src="{{ first_line_item.product.image.url }}"
-                                    alt="{{ first_line_item.product.name }}" class="img-thumbnail-history">
-                                {% else %}
-                                <img class="img-thumbnail-history"
-                                    src="{% get_media_prefix %}default-images/no_orders.webp"
-                                    alt="{{ first_line_item.product.name }}">
-                                {% endif %}
-                                {% endwith %}
-                            </td>
-                            <td class="pb-3">
-                                <ul class="list-unstyled">
-                                    <!--Shows product name and quantity for each line item-->
-                                    {% for item in order.lineitems.all %}
-                                    <li class="">
-                                        <a href="{% url 'product_detail' item.product.id %}"
-                                            aria-label="{{ item.product.name }}" class="text-link">
-                                            {{ item.product.name }}</a> x{{ item.quantity }}
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                            </td>
-                            <td class="pb-3">€{{ order.grand_total }}</td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-            {% else %}
+            <!--Order history table-->
             <div class="col-12 col-lg-6">
-                <p class="text-muted">You haven't made an order yet &#128546;</p>
-                <img src="{% get_media_prefix %}default-images/no_orders.webp" class="img-fluid"
-                    alt="Sad dog, no orders">
+                <hr>
+                <h2 class="logo-font mb-4">Order History</h2>
+                <hr>
+
+                {% if orders %}
+                <div class="order-history table-responsive">
+                    <table class="table table-sm table-borderless">
+                        <thead>
+                            <tr>
+                                <th>Order Number</th>
+                                <th>Date</th>
+                                <th></th>
+                                <th>Items</th>
+                                <th>Order Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--Iterates through orders from user-->
+                            {% for order in orders %}
+                            <tr>
+                                <td class="pb-3">
+                                    <!--Truncate order number-->
+                                    <a href="{% url 'order_history' order.order_number %}" title="{{ order.order_number }}">
+                                        {{ order.order_number|truncatechars:6 }}
+                                    </a>
+                                </td>
+                                <td class="pb-3">{{ order.date|date:"j F, Y" }}</td>
+                                <td class="pb-3">
+                                    <!--Displays product image of first line item if it has one
+                                    Otherwise, show default image-->
+                                    {% with first_line_item=order.lineitems.first %}
+                                    {% if first_line_item.product.image %}
+                                    {# Check if the product has an image #}
+                                    <img src="{{ first_line_item.product.image.url }}"
+                                        alt="{{ first_line_item.product.name }}" class="img-thumbnail-history">
+                                    {% else %}
+                                    <img class="img-thumbnail-history"
+                                        src="{% get_media_prefix %}default-images/no_orders.webp"
+                                        alt="{{ first_line_item.product.name }}">
+                                    {% endif %}
+                                    {% endwith %}
+                                </td>
+                                <td class="pb-3">
+                                    <ul class="list-unstyled">
+                                        <!--Shows product name and quantity for each line item-->
+                                        {% for item in order.lineitems.all %}
+                                        <li class="">
+                                            <a href="{% url 'product_detail' item.product.id %}"
+                                                aria-label="{{ item.product.name }}" class="text-link">
+                                                {{ item.product.name }}</a> x{{ item.quantity }}
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                                <td class="pb-3">€{{ order.grand_total }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="col-12 col-lg-6">
+                    <p class="text-muted">You haven't made an order yet &#128546;</p>
+                    <img src="{% get_media_prefix %}default-images/no_orders.webp" class="img-fluid"
+                        alt="Sad dog, no orders">
+                </div>
+                {% endif %}
             </div>
-            {% endif %}
         </div>
-            <!-- Products user has commented on -->
-            <div class="row">
-                <div class="col">
-                    <hr>
-                    <h2 class="logo-font mb-4">Products You've Commented On:</h2>
-                    <ul class="list-group">
-                        {% for product, comment_count in product_comment_count.items %}
-                        <li class="list-group-item">
-                            <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-thumbnail" width="50" height="50">
-                            <a href="{% url 'product_detail' product.id %}">{{ product.name }}</a>
-                            {% if comment_count > 1 %}
-                            | <span class="text-muted">{{ comment_count }} comments</span>
-                            {% endif %}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                    <hr>
+        <!-- Products user has commented on -->
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="logo-font mb-4">Products You've Commented On:</h2>
+                <ul class="list-group">
+                    {% for product, comment_count in product_comment_count.items %}
+                    <li class="list-group-item">
+                        <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-thumbnail" width="50" height="50">
+                        <a href="{% url 'product_detail' product.id %}">{{ product.name }}</a>
+                        {% if comment_count > 1 %}
+                        | <span class="text-muted">{{ comment_count }} comments</span>
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter subscription section -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="text-center">
+                    <h2 class="mb-3">Subscribe to Our Newsletter and Get 10% Off Your Next Purchase!</h2>
+                    <p>Don't miss out on exclusive deals and updates.</p>
+                    <a href="{% url 'newsletter_signup' %}" class="btn btn-primary">Subscribe Now</a>
                 </div>
             </div>
         </div>
     </div>
-</div>
 {% endblock %}

@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %} <title>Newsletters Signup </title> {% endblock %}
+{% block content %}
+{% block banner %}
+{% endblock %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+<!-- form newsletters  -->
+<div class="container py-4">
+    <h1 class="text-center mt-5">Newsletters Signup</h1>
+    <form  action="{% url 'newsletter_signup' %}" method="post" name="contact_us_form">
+        {% csrf_token %}
+      <div class="mb-3">
+        <label class="form-label" >Name</label>
+        <input class="form-control" id="name" name="name" type="text" placeholder="Name" />
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label" for="emailAddress">Email Address</label>
+        <input class="form-control" name="email-address" id="email-address" type="email" placeholder="Email Address" />
+      </div>
+  
+      <div class="mb-3">
+        <label class="form-label" for="message">Message</label>
+        <textarea class="form-control" name="message" id="message" placeholder="Message" style="height: 10rem;"></textarea>
+      </div>
+  
+      <div class="d-grid">
+        <button class="shop-link" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+{% endblock %}
