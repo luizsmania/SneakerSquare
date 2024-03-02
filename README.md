@@ -4,7 +4,7 @@ This e-commerce platform is a haven for fashion enthusiasts and home decor afici
 
 
 
-  ![Mock Up](/img/mockup.png)
+  ![Mock Up](/readme/mockup.png)
 
   - The live link can be found here: [SneakerSquare](https://sneakersquare-5c5523e490fd.herokuapp.com/)
 
