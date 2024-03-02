@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 if 'DEVELOPMENT' in os.environ:
     DEBUG = 'DEVELOPMENT' in os.environ
 else:
-    DEBUG = True
+    DEBUG = False
 
 ALLOWED_HOSTS = ['8000-luizsmania-sneakersquar-de4q0yrsby9.ws-eu108.gitpod.io', 'sneakersquare-5c5523e490fd.herokuapp.com', '127.0.0.1']
 
