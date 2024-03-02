@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /profile/
+Disallow: /profile/orders_history
+Disallow: /bag/checkout/
+Disallow: /bag/checkout_success/
+
+Sitemap: https://sneakersquare-5c5523e490fd.herokuapp.com/sitemap.xml
