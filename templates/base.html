@@ -1,9 +1,7 @@
-{% load static %}
-
 <!doctype html>
 <html lang="en">
-  <head>
-
+<head>
+    <!-- Meta Tags -->
     {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
@@ -12,10 +10,8 @@
         <link rel="icon" href="/media/favicon.ico" type="image/png">
         <meta name="keywords" content="Sneaker, e-commerce, clothes products, shirts, jeans, essentials">
     {% endblock %}
-
-    {% block extra_meta %}
-    {% endblock %}
-
+    
+    <!-- CSS -->
     {% block corecss %}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
@@ -26,22 +22,20 @@
         <!-- Stripe -->
         <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
-
-    {% block extra_css %}
-    {% endblock %}
-
+    
+    <!-- JavaScript -->
     {% block corejs %}
         <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     {% endblock %}
-
-    {% block extra_js %}
-    {% endblock %}
+    
     <title>Sneaker Square {% block extra_title %}{% endblock %}</title>
-  </head>
-  <body>
+</head>
+<body>
+    
+    <!-- Header Section -->
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -121,6 +115,7 @@
         {% endblock %}
     </header>
 
+    <!-- Messages -->
     {% if messages %}
     <div class="message-container">
         {% for message in messages %}
@@ -137,38 +132,37 @@
             {% endwith %}
         {% endfor %}
     </div>
-{% endif %}
+    {% endif %}
 
-{% block page_header %}
-{% endblock %}
+    <!-- Page Content -->
+    {% block content %}
+        <!-- Your page content here -->
+    {% endblock %}
 
-{% block content %}
-{% endblock %}
+    <!-- Footer -->
+        {% block footer %}
+        <footer class="container-fluid bg-white text-dark py-4">
+            
+            
+                <!--Copyright/Social/Privacy Policy-->
+                <div class="row mt-3">
+                    <div class="col text-center">
+                        <a href="https://www.facebook.com/" target="_blank"
+                            class="footer-contact text-decoration-none"><i class="fab fa-facebook-square"></i> Follow us on
+                            Facebook!</a>
+                        <p class="text-muted mb-0">&copy; 2024 | Sneaker Square | All Rights Reserved.</p>
+                        <a href="{% url 'privacy' %}" target="_blank"
+                            class="footer-contact text-decoration-none">Privacy Policy</a>
+                    </div>
+                </div>
+        </footer>
+    {% endblock %}
 
-{% block footer %}
-<footer class="container-fluid bg-white text-dark py-4">
-    
-    
-        <!--Copyright/Social/Privacy Policy-->
-        <div class="row mt-3">
-            <div class="col text-center">
-                <a href="https://www.facebook.com/" target="_blank"
-                    class="footer-contact text-decoration-none"><i class="fab fa-facebook-square"></i> Follow us on
-                    Facebook!</a>
-                <p class="text-muted mb-0">&copy; 2024 | Sneaker Square | All Rights Reserved.</p>
-                <a href="{% url 'privacy' %}" target="_blank"
-                    class="footer-contact text-decoration-none">Privacy Policy</a>
-            </div>
-        </div>
-</footer>
-{% endblock %}
-
-{% block postloadjs %}
-<script type="text/javascript">
-    $('.toast').toast('show');
-</script>
-{% endblock %}
-
-
+    <!-- Post-load JavaScript -->
+    {% block postloadjs %}
+        <script type="text/javascript">
+            $('.toast').toast('show');
+        </script>
+    {% endblock %}
 </body>
 </html>
