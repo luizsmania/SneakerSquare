@@ -1,6 +1,6 @@
 # Sneaker Square
 
-This e-commerce platform is a haven for fashion enthusiasts and home decor aficionados alike, with a primary focus on clothing, particularly jeans and t-shirts, it provides a diverse array of styles, fits, and designs to suit every taste and occasion, from classic denim staples to trendy graphic tees, customers can explore an extensive selection of apparel that combines comfort, quality, and style.
+Step into the world of sneaker culture with our dynamic online platform, where footwear enthusiasts and streetwear aficionados unite. Specializing in sneakers, we offer an extensive collection that caters to all tastes and preferences, from classic kicks to the latest limited editions. But we're more than just sneakers – dive into our curated selection of t-shirts and hoodies, designed to complement your sneaker style with urban flair. Discover comfort, quality, and trendsetting designs all in one place, as you explore our diverse range of apparel and accessories. Whether you're a seasoned sneakerhead or just starting your collection, we've got everything you need to elevate your streetwear game.
 
 
 
@@ -9,10 +9,10 @@ This e-commerce platform is a haven for fashion enthusiasts and home decor afici
   - The live link can be found here: [SneakerSquare](https://sneakersquare-5c5523e490fd.herokuapp.com/)
 
 # UX
-Welcome to Sneaker Square e-commerce, a site made for all needs, clothing and home goods! Our user experience (UX) design offers customers a smooth purchasing experience for apparel and home decoration. Our platform is made to fit your demands, whether you're renovating your living area or changing your wardrobe.
+Welcome to Sneaker Square, your ultimate destination for all things sneakers, apparel, and home goods! Our user experience (UX) design prioritizes seamless navigation and effortless purchasing, ensuring a hassle-free shopping journey for both fashion enthusiasts and home decorators alike. Whether you're revamping your wardrobe or sprucing up your living space, our platform is tailored to meet your every need.
 
-## Target Audience
-The target audience for our e-commerce that offers home goods. Convenience, quality, and style are important to our customers when it comes to personal style and home decoration. Usually young to middle-aged adults who enjoy the comfort of online shopping. This market seeks products that effortlessly combine fashionable design with useful and fashionable clothing's.
+# Target Audience
+At Sneaker Square, we cater to a diverse audience with a shared appreciation for convenience, quality, and style. Our customers, typically young to middle-aged adults, value the ease and comfort of online shopping. They seek products that effortlessly blend fashion-forward design with practicality, whether it's in their clothing choices or home decor selections. Join our community of discerning shoppers and discover a curated selection of products that embody the perfect fusion of style and functionality.
 
 ## Goals
 <details>
@@ -489,14 +489,11 @@ I used PostgreSQL as the database for this project. Hosting the application on H
   - Css validator
   ![image](/readme/css-test-validator.png)
 
+    - Python validator
+  ![image](/readme/testpy.png)
+
   - HTML Validator
   ![image](/readme/html-base.png)
-
-- Products
-  ![image](/readme/html-products.png)
-
-- Newsletters
-  ![image](/readme/html-products.png)
 
 
 </details>
