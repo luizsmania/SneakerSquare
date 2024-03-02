@@ -225,7 +225,7 @@ I used PostgreSQL as the database for this project. Hosting the application on H
 ![image](/readme/user-stories.png)
 
 
-- [**LINK TO THE TEMPLATE**](add link here)
+- [**LINK TO THE TEMPLATE**](https://github.com/users/luizsmania/projects/3/views/1)
   
 ## Implemented Features 
 ### Features
