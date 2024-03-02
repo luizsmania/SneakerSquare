@@ -336,10 +336,10 @@ input[name='q']::placeholder {
 }
 .privacy h5,h6{
     line-height:24px;
-    font-weight:700
+    font-weight:700;
 }
 .privacy h6{
-    font-size:cacl(16px)
+    font-size:16px;
 }
 .privacy a{
     text-decoration:none;
