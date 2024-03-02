@@ -540,6 +540,41 @@ I used PostgreSQL as the database for this project. Hosting the application on H
 - Authentication and other pages are restricted in order to limit the pages that Google should search for, allowing it to only find relevant results.
 - [robots.txt file]() 
 
+# Final Project Requirements
+
+## Custom Models and Functionalities
+- Your final project must include at least 3 original custom models with associated functionalities. These models should be markedly different from those present in the Boutique Ado walkthrough project, if they have been used as a basis for your project. ✅
+
+## Frontend Features
+- Include at least one form on the front end, providing either admin or regular users with CRUD functionality without having to access the admin panel. ✅
+- Implement at least one UI element on the front end, allowing either admin or regular users to delete records in the database without having to access the admin panel. ✅
+
+## Development Methodologies
+- Demonstrate evidence of agile methodologies followed during the development of your project in the GitHub repository. ✅
+
+## SEO and Site Management
+- Provide a robots.txt file. ✅
+- Include a sitemap.xml file. ✅
+- Implement descriptive meta tags in the HTML. ✅
+- Add at least one link to an external resource, utilizing a rel attribute. ✅
+- Create a custom 404 error page. ✅
+
+## Digital Marketing
+- Provide evidence of either a real Facebook business page or a mockup for digital marketing purposes. ✅
+- Implement a newsletter signup form for digital marketing purposes. ✅
+
+## Business Model and Marketing Strategies
+- Include a description of the e-commerce business model along with marketing strategies in the README file. ✅
+
+## Configuration and Functionality
+- Set DEBUG mode to False. ✅
+- Ensure working functionality for users to register, log in, and out of the application without issues. ✅
+- Implement functional e-commerce capabilities for users to make purchases within the application. ✅
+
+## Testing
+- Provide detailed testing write-ups, going beyond the results of validation tools. ✅
+
+
 ## Technologies Used
 Several technologies have been used to enable this website works:
 | Technology               | Description                                                                                                                                          |
