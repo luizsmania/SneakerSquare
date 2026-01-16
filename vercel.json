@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "buildCommand": "python manage.py collectstatic --noinput || true",
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/index.py"
+    }
+  ],
+  "env": {
+    "PYTHONPATH": ".",
+    "VERCEL": "1"
+  }
+}

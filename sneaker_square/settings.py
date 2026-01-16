@@ -34,7 +34,32 @@ if 'DEVELOPMENT' in os.environ:
 else:
     DEBUG = False
 
-ALLOWED_HOSTS = ['8000-luizsmania-sneakersquar-de4q0yrsby9.ws-eu108.gitpod.io', 'sneakersquare-5c5523e490fd.herokuapp.com', '127.0.0.1']
+# Vercel deployment - allow vercel.app domains
+VERCEL_DOMAIN = os.environ.get('VERCEL_URL', '')
+ALLOWED_HOSTS = [
+    '8000-luizsmania-sneakersquar-de4q0yrsby9.ws-eu108.gitpod.io',
+    'sneakersquare-5c5523e490fd.herokuapp.com',
+    '127.0.0.1',
+    'localhost',
+]
+
+# Add Vercel domain if present
+if VERCEL_DOMAIN:
+    # Remove protocol if present
+    domain = VERCEL_DOMAIN.replace('https://', '').replace('http://', '')
+    ALLOWED_HOSTS.append(domain)
+
+# For Vercel deployments - allow any host for showcase
+if os.environ.get('VERCEL'):
+    # Extend ALLOWED_HOSTS to accept any .vercel.app domain
+    ALLOWED_HOSTS.extend([
+        '.vercel.app',
+        'vercel.app'
+    ])
+
+# Set SECURE_PROXY_SSL_HEADER for Vercel
+if VERCEL_DOMAIN or os.environ.get('VERCEL'):
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 
 # Application definition
@@ -58,7 +83,6 @@ INSTALLED_APPS = [
 
     # Other
     'crispy_forms',
-    'storages',
     'crispy_bootstrap4',
 ]
 
@@ -77,7 +101,15 @@ ROOT_URLCONF = 'sneaker_square.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-CSRF_TRUSTED_ORIGINS = ['http://*', 'https://*', "https://8000-luizsmania-sneakersquar-de4q0yrsby9.ws-eu108.gitpod.io"]
+# CSRF Trusted Origins
+CSRF_TRUSTED_ORIGINS = [
+    "https://8000-luizsmania-sneakersquar-de4q0yrsby9.ws-eu108.gitpod.io",
+]
+
+# Add Vercel domain to CSRF trusted origins
+if VERCEL_DOMAIN:
+    domain = VERCEL_DOMAIN.replace('https://', '').replace('http://', '')
+    CSRF_TRUSTED_ORIGINS.append(f"https://{domain}")
 
 TEMPLATES = [
     {
@@ -184,37 +216,14 @@ USE_TZ = True
 
 
 
-# Bucket Config
+# Static files configuration (no AWS - using local storage for showcase)
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-if 'USE_AWS' in os.environ:
-    AWS_STORAGE_BUCKET_NAME = 'sneaker-square'
-    AWS_S3_REGION_NAME = 'eu-west-1'
-    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
-    AWS_DEFAULT_ACL = 'public-read'
-    AWS_S3_OBJECT_PARAMETERS = {
-        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
-        'CacheControl': 'max-age=94608000',
-    }
-
-    # Static and media files
-    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
-    STATICFILES_LOCATION = 'static'
-    DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
-    MEDIAFILES_LOCATION = 'media'
-
-    # Override static and media URLs in production
-    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
-    STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
-
-    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
-    MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-else:
-    STATIC_URL = '/static/'
-    STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
-    MEDIA_URL = '/media/'
-    MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# Media files configuration
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = Decimal('10')  # Example: 10% delivery cost
